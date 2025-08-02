@@ -78,47 +78,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Values Section */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-max">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Our Values
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Excellence
-              </h3>
-              <p className="text-gray-600">
-                We maintain the highest standards in our coaching methods and
-                client outcomes.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Personalization
-              </h3>
-              <p className="text-gray-600">
-                Every coaching experience is tailored to individual needs and
-                goals.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Growth
-              </h3>
-              <p className="text-gray-600">
-                We believe in continuous improvement and helping clients reach
-                their potential.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Us Section */}
       <section id="contact" className="section-padding bg-white">
         <div className="container-max">
