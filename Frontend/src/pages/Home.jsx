@@ -5,17 +5,29 @@ const Home = () => {
     {
       title: "Elite Coaches",
       description: "Learn from Ivy League & top schools",
-      icon: "🎯",
+      icon: <img src="/dart.png" alt="dart" className="w-8 h-8 inline-block" />,
     },
     {
       title: "Flexible Format",
       description: "Short, impactful session tailored to work schedules",
-      icon: "✨",
+      icon: (
+        <img
+          src="/adaptability.png"
+          alt="adaptability"
+          className="w-8 h-8 inline-block"
+        />
+      ),
     },
     {
       title: "Strategic Edge",
       description: "Learn language and global business communication",
-      icon: "📈",
+      icon: (
+        <img
+          src="/business.png"
+          alt="business"
+          className="w-8 h-8 inline-block"
+        />
+      ),
     },
   ];
 
