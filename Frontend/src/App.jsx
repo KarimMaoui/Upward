@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import Home from "./pages/Home";
+import Home from "./pages/HomePage/Home";
 import ServicesB2B from "./pages/ServicesB2B";
 import ServicesB2C from "./pages/ServicesB2C";
-import HowItWorks from "./pages/HowItWorks";
+import HowItWorks from "./pages/HowItWorksPage/HowItWorks";
 import Tutors from "./pages/Tutors";
-import About from "./pages/About";
+import About from "./pages/AboutPage/About";
 import Blog from "./pages/Blog";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";

@@ -5,13 +5,13 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
+    // { name: "Home", href: "/" },
     { name: "B2B Services", href: "/services-b2b" },
     { name: "B2C Services", href: "/services-b2c" },
-    { name: "How It Works", href: "/how-it-works" },
     { name: "Our Tutors", href: "/tutors" },
-    { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
+    { name: "How It Works", href: "/how-it-works" },
+    { name: "Free Resources", href: "/blog" },
+    { name: "CSV Page", href: "/about" },
   ];
 
   return (

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Tutors = () => {
+  // use mock data now, can be replaced later
   const tutors = [
     {
       id: 1,

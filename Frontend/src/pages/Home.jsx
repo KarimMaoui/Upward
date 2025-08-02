@@ -56,16 +56,14 @@ const Home = () => {
             Speak Better. Reach Higher.
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Transform your communication skills with expert coaching from
-            industry professionals. Whether you're looking to improve public
-            speaking, leadership, or team collaboration.
+            Master confident communication. Designed for global professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book-session" className="btn-primary">
-              Book a Session
+              START YOUR JOURNEY
             </Link>
             <Link to="/services-b2c" className="btn-secondary">
-              Register
+              PRICING
             </Link>
           </div>
           <div className="mt-12">
