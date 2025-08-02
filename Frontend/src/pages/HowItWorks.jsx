@@ -7,21 +7,18 @@ const HowItWorks = () => {
       title: "Assessment & Goal Setting",
       description:
         "Complete a comprehensive assessment to identify your communication strengths and areas for improvement. Together, we will set clear, achievable goals for your development.",
-      icon: "📋",
     },
     {
       step: 2,
       title: "Coach Matching",
       description:
         "Based on your assessment results and goals, we will match you with the perfect coach who specializes in your specific needs and learning style.",
-      icon: "🤝",
     },
     {
       step: 3,
       title: "Begin Your Journey",
       description:
         "Start your personalized coaching sessions with regular check-ins, progress tracking, and continuous support to ensure you achieve your communication goals.",
-      icon: "🚀",
     },
   ];
 

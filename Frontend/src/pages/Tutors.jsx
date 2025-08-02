@@ -5,7 +5,7 @@ const Tutors = () => {
   const tutors = [
     {
       id: 1,
-      name: "Dr. Sarah Mitchell",
+      name: "Tutor 1",
       role: "Communication Expert",
       specialty: "Public Speaking & Presentation Skills",
       experience: "15+ years",
@@ -15,7 +15,7 @@ const Tutors = () => {
     },
     {
       id: 2,
-      name: "Michael Rodriguez",
+      name: "Tutor 2",
       role: "Leadership Coach",
       specialty: "Executive Communication & Team Leadership",
       experience: "12+ years",
@@ -25,7 +25,7 @@ const Tutors = () => {
     },
     {
       id: 3,
-      name: "Emily Chen",
+      name: "Tutor 3",
       role: "Career Coach",
       specialty: "Interview Preparation & Professional Development",
       experience: "10+ years",
@@ -35,7 +35,7 @@ const Tutors = () => {
     },
     {
       id: 4,
-      name: "David Thompson",
+      name: "Tutor 4",
       role: "Sales Communication Specialist",
       specialty: "Sales Presentations & Negotiation Skills",
       experience: "18+ years",
@@ -45,7 +45,7 @@ const Tutors = () => {
     },
     {
       id: 5,
-      name: "Lisa Johnson",
+      name: "Tutor 5",
       role: "Media & PR Coach",
       specialty: "Media Training & Crisis Communication",
       experience: "14+ years",
@@ -55,7 +55,7 @@ const Tutors = () => {
     },
     {
       id: 6,
-      name: "James Wilson",
+      name: "Tutor 6",
       role: "Technical Communication Expert",
       specialty: "Technical Presentations & Complex Communication",
       experience: "16+ years",
@@ -175,7 +175,13 @@ const Tutors = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl mb-4">🎓</div>
+              <div className="text-4xl mb-4">
+                <img
+                  src="/expert.png"
+                  alt="expert"
+                  className="w-8 h-8 inline-block"
+                />
+              </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 Expert Qualifications
               </h3>
@@ -185,7 +191,13 @@ const Tutors = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">💼</div>
+              <div className="text-4xl mb-4">
+                <img
+                  src="/travel-bag.png"
+                  alt="travel"
+                  className="w-8 h-8 inline-block"
+                />
+              </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 Industry Experience
               </h3>
@@ -195,7 +207,13 @@ const Tutors = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">📈</div>
+              <div className="text-4xl mb-4">
+                <img
+                  src="/graph.png"
+                  alt="graph"
+                  className="w-8 h-8 inline-block"
+                />
+              </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
                 Proven Results
               </h3>

@@ -3,46 +3,41 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const whyUpwardFeatures = [
     {
-      title: "Expert Coaches",
-      description:
-        "Learn from industry professionals with proven track records in communication and leadership.",
+      title: "Elite Coaches",
+      description: "Learn from Ivy League & top schools",
       icon: "🎯",
     },
     {
-      title: "Personalized Approach",
-      description:
-        "Tailored coaching sessions designed to meet your specific goals and learning style.",
+      title: "Flexible Format",
+      description: "Short, impactful session tailored to work schedules",
       icon: "✨",
     },
     {
-      title: "Proven Results",
-      description:
-        "Join thousands of successful professionals who have transformed their communication skills.",
+      title: "Strategic Edge",
+      description: "Learn language and global business communication",
       icon: "📈",
     },
   ];
 
   const testimonials = [
-    { name: "Sarah Johnson", role: "Marketing Director", company: "TechCorp" },
+    { name: "Client 1", role: "Marketing Director", company: "TechCorp" },
     {
-      name: "Michael Chen",
+      name: "Client 2",
       role: "Sales Manager",
       company: "Global Solutions",
     },
-    { name: "Emily Rodriguez", role: "Team Lead", company: "Innovation Labs" },
+    { name: "Client 3", role: "Team Lead", company: "Innovation Labs" },
   ];
 
   const journeyOptions = [
     {
-      title: "Individual Coaching",
-      description:
-        "One-on-one sessions focused on your personal development and communication goals.",
+      title: "B2B",
+      description: "Description of B2B services we have.",
       image: "/api/placeholder/400/300",
     },
     {
-      title: "Team Training",
-      description:
-        "Group sessions designed to improve team communication and collaboration skills.",
+      title: "B2C",
+      description: "Description of B2C services we have.",
       image: "/api/placeholder/400/300",
     },
   ];

@@ -11,7 +11,7 @@ const Header = () => {
     { name: "Our Tutors", href: "/tutors" },
     { name: "How It Works", href: "/how-it-works" },
     { name: "Free Resources", href: "/blog" },
-    { name: "CSV Page", href: "/about" },
+    { name: "CSV Page", href: "/terms" },
   ];
 
   return (
@@ -38,8 +38,8 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link to="/book-session" className="btn-primary">
-              Book a Session
+            <Link to="/about" className="btn-primary">
+              Contact
             </Link>
           </div>
 

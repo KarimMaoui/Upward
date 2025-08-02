@@ -27,21 +27,21 @@ const ServicesB2C = () => {
 
   const coaches = [
     {
-      name: "Dr. Sarah Mitchell",
+      name: "Coach 1",
       role: "Communication Expert",
       specialty: "Public Speaking & Presentation Skills",
       image: "/api/placeholder/200/200",
     },
     {
-      name: "Michael Rodriguez",
+      name: "Coach 2",
       role: "Leadership Coach",
       specialty: "Executive Communication & Team Leadership",
       image: "/api/placeholder/200/200",
     },
     {
-      name: "Emily Chen",
+      name: "Coach 3",
       role: "Career Coach",
-      specialty: "Interview Preparation & Professional Development",
+      specialty: "Interview Preparation ",
       image: "/api/placeholder/200/200",
     },
   ];

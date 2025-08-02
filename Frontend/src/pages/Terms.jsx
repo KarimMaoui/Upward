@@ -54,50 +54,9 @@ const Terms = () => {
               policy as outlined in your service agreement.
             </p>
 
-            <h2>5. Cancellation Policy</h2>
-            <p>
-              Sessions may be cancelled up to 24 hours in advance without
-              penalty. Late cancellations may result in charges as outlined in
-              your service agreement.
-            </p>
-
-            <h2>6. Privacy and Data Protection</h2>
-            <p>
-              Your privacy is important to us. Please review our Privacy Policy
-              to understand how we collect, use, and protect your personal
-              information.
-            </p>
-
-            <h2>7. Intellectual Property</h2>
-            <p>
-              All content, materials, and intellectual property provided through
-              our services remain the property of Upward or our licensors and
-              may not be reproduced without permission.
-            </p>
-
-            <h2>8. Limitation of Liability</h2>
-            <p>
-              Upward provides coaching and training services but cannot
-              guarantee specific outcomes. We are not liable for any indirect,
-              incidental, or consequential damages.
-            </p>
-
-            <h2>9. Changes to Terms</h2>
-            <p>
-              We reserve the right to modify these terms at any time. Continued
-              use of our services after changes constitutes acceptance of the
-              new terms.
-            </p>
-
-            <h2>10. Contact Information</h2>
-            <p>
-              For questions about these terms, please contact us at
-              legal@upward.com
-            </p>
-
             <div className="mt-12 p-6 bg-gray-50 rounded-lg">
               <p className="text-sm text-gray-600">
-                <strong>Last updated:</strong> May 1, 2024
+                <strong>Last updated:</strong> May 1, 2025
               </p>
             </div>
           </div>

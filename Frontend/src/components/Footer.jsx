@@ -3,20 +3,16 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const footerLinks = {
     company: [
-      { name: "About Us", href: "/about" },
-      { name: "Services", href: "/services-b2c" },
-      { name: "Contact", href: "/about#contact" },
+      { name: "B2B", href: "/services-b2b" },
+      { name: "B2C", href: "/services-b2c" },
     ],
-    legal: [
-      { name: "Terms & Conditions", href: "/terms" },
-      { name: "Privacy Policy", href: "/privacy" },
-      { name: "GDPR", href: "/gdpr" },
-    ],
+
     resources: [
       { name: "Blog", href: "/blog" },
       { name: "How It Works", href: "/how-it-works" },
       { name: "Our Tutors", href: "/tutors" },
     ],
+    legal: [{ name: "CSV page", href: "/terms" }],
   };
 
   return (
@@ -33,26 +29,9 @@ const Footer = () => {
 
           {/* Company Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    to={link.href}
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Legal Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2">
-              {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
@@ -70,6 +49,23 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    to={link.href}
+                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Legal</h3>
+            <ul className="space-y-2">
+              {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
