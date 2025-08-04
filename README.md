@@ -1,4 +1,4 @@
-To start the frontend
+To start the frontend, in your terminal
 <pre> 
 cd Frontend
 npm install
