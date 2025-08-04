@@ -48,13 +48,13 @@ const BookSession = () => {
   ];
 
   const coaches = [
-    "Any Coach (We will match you)",
-    "Dr. Sarah Mitchell - Communication Expert",
-    "Michael Rodriguez - Leadership Coach",
-    "Emily Chen - Career Coach",
-    "David Thompson - Sales Communication",
-    "Lisa Johnson - Media & PR Coach",
-    "James Wilson - Technical Communication",
+    "Any Tutor (We will match you)",
+    "Tutor 1 - Communication Expert",
+    "Tutor 2 - Leadership Coach",
+    "Tutor 3 - Career Coach",
+    "Tutor 4 - Sales Communication",
+    "Tutor 5 - Media & PR Coach",
+    "Tutor 6 - Technical Communication",
   ];
 
   return (
