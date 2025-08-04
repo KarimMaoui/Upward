@@ -184,7 +184,9 @@ const About = () => {
             Download our comprehensive guide to communication best practices and
             coaching insights.
           </p>
-          <button className="btn-primary">Link</button>
+          <Link to="/terms" className="btn-primary">
+            Link
+          </Link>
         </div>
       </section>
     </div>
