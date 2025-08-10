@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { InlineWidget } from "react-calendly";
 
 const ServicesB2B = () => {
+  const calendlyUrl = import.meta.env.VITE_CALENDLY_URL;
+
   const [selectedDate, setSelectedDate] = useState(null);
 
   const courseFormats = [
@@ -204,7 +207,7 @@ const ServicesB2B = () => {
             </div>
 
             {/* Calendar Component */}
-            <div className="bg-gray-50 rounded-lg p-6">
+            {/* <div className="bg-gray-50 rounded-lg p-6">
               <div className="text-center mb-6">
                 <h4 className="text-xl font-semibold text-gray-900">
                   {monthNames[currentDate.getMonth()]}{" "}
@@ -259,6 +262,16 @@ const ServicesB2B = () => {
                   </Link>
                 </div>
               )}
+            </div> */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <div className="text-center mb-6">
+                <h4 className="text-xl font-semibold text-gray-900">
+                  Book a time directly via our calendar
+                </h4>
+              </div>
+              <div className="h-[800px]">
+                <InlineWidget url={calendlyUrl} />
+              </div>
             </div>
           </div>
         </div>
