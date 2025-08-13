@@ -1,79 +1,80 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { articles } from "../data/articles";
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const categories = ["All", "Economy", "Finance", "Tech", "Fashion"];
 
-  const articles = [
-    {
-      id: 1,
-      title: "The Art of Persuasive Communication in Business",
-      excerpt:
-        "Learn how to craft compelling messages that drive action and influence decision-making in professional settings.",
-      category: "Economy",
-      author: "Dr. Sarah Mitchell",
-      date: "May 15, 2024",
-      readTime: "5 min read",
-      image: "/api/placeholder/400/250",
-    },
-    {
-      id: 2,
-      title: "Financial Presentations That Win Over Investors",
-      excerpt:
-        "Master the techniques used by successful entrepreneurs to present financial data with clarity and impact.",
-      category: "Finance",
-      author: "Michael Rodriguez",
-      date: "May 12, 2024",
-      readTime: "7 min read",
-      image: "/api/placeholder/400/250",
-    },
-    {
-      id: 3,
-      title: "Tech Leadership: Communicating Complex Ideas Simply",
-      excerpt:
-        "Discover strategies for explaining technical concepts to non-technical audiences effectively.",
-      category: "Tech",
-      author: "Emily Chen",
-      date: "May 10, 2024",
-      readTime: "6 min read",
-      image: "/api/placeholder/400/250",
-    },
-    {
-      id: 4,
-      title: "Personal Branding Through Communication",
-      excerpt:
-        "Build your personal brand by developing a unique communication style that reflects your values.",
-      category: "Fashion",
-      author: "Lisa Johnson",
-      date: "May 8, 2024",
-      readTime: "4 min read",
-      image: "/api/placeholder/400/250",
-    },
-    {
-      id: 5,
-      title: "Crisis Communication: Leading Through Uncertainty",
-      excerpt:
-        "Essential communication strategies for leaders navigating challenging times and organizational crises.",
-      category: "Economy",
-      author: "David Thompson",
-      date: "May 5, 2024",
-      readTime: "8 min read",
-      image: "/api/placeholder/400/250",
-    },
-    {
-      id: 6,
-      title: "The Future of Remote Team Communication",
-      excerpt:
-        "Explore emerging trends and best practices for effective communication in distributed teams.",
-      category: "Tech",
-      author: "James Wilson",
-      date: "May 3, 2024",
-      readTime: "6 min read",
-      image: "/api/placeholder/400/250",
-    },
-  ];
+  // const articles = [
+  //   {
+  //     id: 1,
+  //     title: "The Art of Persuasive Communication in Business",
+  //     excerpt:
+  //       "Learn how to craft compelling messages that drive action and influence decision-making in professional settings.",
+  //     category: "Economy",
+  //     author: "Dr. Sarah Mitchell",
+  //     date: "May 15, 2024",
+  //     readTime: "5 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Financial Presentations That Win Over Investors",
+  //     excerpt:
+  //       "Master the techniques used by successful entrepreneurs to present financial data with clarity and impact.",
+  //     category: "Finance",
+  //     author: "Michael Rodriguez",
+  //     date: "May 12, 2024",
+  //     readTime: "7 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Tech Leadership: Communicating Complex Ideas Simply",
+  //     excerpt:
+  //       "Discover strategies for explaining technical concepts to non-technical audiences effectively.",
+  //     category: "Tech",
+  //     author: "Emily Chen",
+  //     date: "May 10, 2024",
+  //     readTime: "6 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Personal Branding Through Communication",
+  //     excerpt:
+  //       "Build your personal brand by developing a unique communication style that reflects your values.",
+  //     category: "Fashion",
+  //     author: "Lisa Johnson",
+  //     date: "May 8, 2024",
+  //     readTime: "4 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Crisis Communication: Leading Through Uncertainty",
+  //     excerpt:
+  //       "Essential communication strategies for leaders navigating challenging times and organizational crises.",
+  //     category: "Economy",
+  //     author: "David Thompson",
+  //     date: "May 5, 2024",
+  //     readTime: "8 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "The Future of Remote Team Communication",
+  //     excerpt:
+  //       "Explore emerging trends and best practices for effective communication in distributed teams.",
+  //     category: "Tech",
+  //     author: "James Wilson",
+  //     date: "May 3, 2024",
+  //     readTime: "6 min read",
+  //     image: "/api/placeholder/400/250",
+  //   },
+  // ];
 
   const filteredArticles =
     selectedCategory === "All"
@@ -125,10 +126,12 @@ const Blog = () => {
                 key={article.id}
                 className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="bg-gray-200 h-48 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">
-                    Article {article.id}
-                  </span>
+                <div className="bg-gray-200 h-48 overflow-hidden">
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">

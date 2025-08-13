@@ -8,6 +8,7 @@ import Tutors from "./pages/Tutors";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Terms from "./pages/Terms";
+import BlogDetail from "./pages/BlogDetail";
 
 import BookSession from "./pages/BookSession";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/tutors" element={<Tutors />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/book-session" element={<BookSession />} />
         </Routes>
