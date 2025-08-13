@@ -66,7 +66,7 @@ export const articles = [
     author: "",
     date: "August 13, 2025",
     readTime: "7 min read",
-    image: "", // put an image at public/images/usd-cover.jpg
+    image: "/usd.jpg", // put an image at public/images/usd-cover.jpg
     content: `
   **The Biggest Decline in U.S. Dollar Value, Precedents, and Where it Will Take Us**
   
@@ -169,6 +169,116 @@ export const articles = [
   - Unilever. (2024, July 31). *Utilising AI to Redefine the Future of Customer Connectivity*. https://www.unilever.com/news/news-search/2024/utilising-ai-to-redefine-the-future-of-customer-connectivity/
   - *Unilever: Using AI to empower people to supercharge… | PA Consulting*. (2024). PA Consulting. https://www.paconsulting.com/client-story/unilever-using-ai-to-empower-people-to-supercharge-innovation-and-drive-growth
   - Veeva Systems. (2025). *Unilever's digital transformation with Veeva*. https://www.industries.veeva.com/case-studies/unilevers-digital-transformation-with-veeva
+  `,
+  },
+  {
+    id: 4,
+    title: "How is AI Changing The Way We Learn Business English?",
+    excerpt:
+      "English is now a core career asset. With AI, learning shifts from grammar drills to confidence, clarity, and real-world impact—especially for professionals aiming to operate globally.",
+    category: "Tech",
+    author: "", // change if needed
+    date: "August 13, 2025",
+    readTime: "6 min read",
+    // Put an image at public/images/business-english-ai.avif (or use .jpg/.png)
+    image: "/business-english-ai.avif",
+    content: `
+  **How is AI Changing The Way We Learn Business English?**
+  
+  As the world becomes more connected, English is more than just a language, it is a career asset. For professionals in non-English speaking countries, proficiency can be the determining factor between international opportunities, broader negotiations and global networks which would otherwise remain inaccessible. 
+  
+  English is the language of global business, used in more than 70% of cross-border communication. Whether you are working in tech, finance, consulting or academia, your ability to lead and grow is heavily dependent on the capacity to express yourself in English. In meetings, calls, emails or presentations, confidence and clarity in English can be the dealbreaker between being local or global.
+  
+  And despite this, numerous technically skilled professionals are being held back, not by technical knowledge, but by modesty in using English. The issue is in competence. It is in belief.
+  
+  At Upward, we believe that English instruction is not sufficient to teach students about grammar. Language learning should empower individuals to express ideas clearly, navigate through cultural practices, and build long-term credibility with global colleagues and clients. English fluency isn’t merely about vocabulary or pronunciation. It’s about communicating leadership, professionalism and purpose.
+  
+  For French professionals, this issue is particularly strategic. As France advances in global industries such as AI, climate tech and consulting, professionals who master English position themselves to be ambassadors between worlds. They are able to lead international projects, serve cross-border clients and innovate beyond borders.
+  
+  With the competitive job market today, excellent English is no longer optional, it is expected. The good news? It is a skill that can be acquired. With proper guidance, hands on training and feedback, any business professional can acquire the confidence and proficiency needed to excel above and beyond.
+  
+  
+  
+  **Critical Thinking Questions:**
+  1. Why is English considered a core skill for global professionals today?
+  2. How might limited English affect cross-border deal-making?
+  3. What are the cultural risks of communicating poorly in a second language?
+  4. How can French professionals gain an edge in tech and ESG sectors with English?
+  5. Why might confidence be more important than grammar in business communication?
+  6. What role does English play in international client trust-building?
+  7. How does English impact professional visibility on platforms like LinkedIn?
+  8. Why should English learning be tailored to real work scenarios?
+  9. What makes English more difficult to apply in spontaneous meetings vs. emails?
+  10. How can English competence empower underrepresented voices globally?
+  
+  **Glossary:**
+  1. **Cross-border communication** – communication between individuals or companies in different countries.
+  2. **Remote collaboration** – working with others from different locations via digital tools.
+  3. **Global fluency** – ability to navigate and communicate effectively across cultures.
+  4. **Business English** – English language used in professional and corporate contexts.
+  5. **Strategic communication** – purposeful use of communication by an organization to fulfill its mission.
+  6. **Language barrier** – difficulty in communication due to differences in spoken language.
+  
+  **References**
+  - EF Education First. (2023). *EF English Proficiency Index 2023: English and the global workforce*. https://www.ef.com/wwen/epi/
+  - McCollege. (n.d.). *The role of English in global business: Why it matters*. https://mccollege.edu/professional-english-esl/about-professional-english-esl/the-role-of-english-in-global-business-why-it-matters/
+  - EUBusiness News. (2023, November 30). *English is the language of leadership and global opportunity*. https://www.eubusinessnews.com/english-is-the-language-of-leadership-and-global-opportunity/
+  `,
+  },
+  {
+    id: 5,
+    title: "Beyond the Swoosh: Nike’s Strategy Amid U.S.-China Tariffs",
+    excerpt:
+      "Nike’s four-decade presence in Greater China faces new challenges as U.S.-China tariffs reshape supply chains, market competition, and local innovation strategy.",
+    category: "Economy",
+    author: "", // update if needed
+    date: "August 13, 2025",
+    readTime: "7 min read",
+    image: "/nike-tariffs.png",
+    content: `
+  **Beyond the Swoosh: Nike’s Strategy Amid U.S.-China Tariffs**
+  
+  In 1981, Nike entered the China market and by 2006, established Nike Sports (China) Co. Ltd. to oversee domestic operations. Rather than introducing new products for the China market, Nike sponsored various sporting events and professional leagues to broaden its presence, strategically taking part in China’s 2008 Olympic bid.
+  
+  With over 40 years of operations in the Greater China region, Nike’s recognition of interdependence between the U.S. and China becomes vital for global corporations to remain informed and develop sustainable strategies. As both a key manufacturing base and consumer market for Nike, China presents shifting risks and opportunities amid changing trade policies and political dynamics. Recent developments in the U.S.-China relations directly impact supply chain costs, market positioning, and long-term regional strategy of the consumer goods and footwear sector.
+  
+  As of early 2025, the United States, under its new administration, extended tariffs on Chinese imports, skyrocketing commercial taxation up to 145%. In retaliation, China set alternate rates of 125% and implemented more absolute regulations on overseas brands. While a May 2025 agreement temporarily lowered rates to 30% (U.S) and 10% (China) for 90 days, underlying business tensions lingered. Nike disclosed plans to decrease China-based production for US-based goods from 16% to single digits by 2026. This projects $1 billion in supplementary costs. Although alternative manufacturing centers like Vietnam and Mexico are expanding, this change demands thorough supply chain rearrangement, temporarily causing inefficiencies.
+  
+  Despite these manufacturing challenges, Nike remains a consistent partner with its international partner. The Chinese market, responsible for 15% of its FY2024 revenue of over $7.55 billion, faces intensifying competition from domestic rivals such as Anta and Li-Ning. As a result, the company plans on localized innovation to sustain market leadership. This commitment is exemplified by the promotion of Greater China CEO Angela Dong to lead global expansion of Nike's All Conditions Gear division. This strategic move positions China as a premium market and innovation hub for its global consumer base. This approach aligns with China's priorities of boosting domestic consumption and advancing technological autonomy.
+  
+  The interconnectedness of the two global economic hubs underscores the importance of informed, strategic, and adaptive decisions. China’s digitalization and modernization, especially in its retail and consumer goods sectors, positions itself as a vital part of Nike’s global strategy. With friction of uncertainty presents itself, Nike’s investment in regional leadership and local R&D to alleviate supply chain risks presents a competitive advantage in protecting long-term growth.
+  
+  
+  **Critical Thinking Questions:**
+  1. How would tariffs influence global supply chain strategies (for multinational companies like Nike)?
+  2. How can political shifts in one country impact corporate decision-making worldwide?
+  3. What challenges do companies face when they rely too much on one country for making their products?
+  4. How can a global brand stay popular in a country where local competitors are getting stronger?
+  5. Why is it important for multinational companies to invest in research and development within local markets?
+  6. Why might a company invest in creating new products designed for just one country?
+  7. How do large companies influence the communities where they set up factories?
+  8. Why is it important for companies to understand the culture of the countries they sell to?
+  9. How do global events change the way people shop for everyday items?
+  10. What makes some companies better than others at adapting to change?
+  11. What factors might cause a company to rethink its presence in a particular country?
+  12. What ethical challenges arise when companies operate in multiple countries?
+  
+  **Glossary**
+  - **Tariff**: a tax imposed on imported goods by a government to regulate trade or raise revenue.
+    - **Retaliatory Tariffs**: a tax that a government charges on imports to punish another country for charging tax on its own exports.
+  - **Supply Chain**: the system of organizations, people, activities, and resources involved in moving a product from supplier to customer.
+  - **Localized Innovation**: developing products or strategies tailored to the preferences and conditions of a specific market/region.
+  - **Market Positioning**: the process of establishing and maintaining a brand’s image in the minds of consumers relative to competitors.
+  - **Technological Autonomy**: the ability of technology to function and decide independently, reducing human intervention.
+    - In this context: a country's ability to develop and deploy its own technologies without heavy reliance on foreign providers.
+  
+  **References**
+  - Gonsalves, A. (2025, July 2). *Nike fights $1B tariff hit with sourcing shifts, price hikes*. Supply Chain Dive. https://www.supplychaindive.com/news/nike-1b-tariff-sourcing-price-hikes/752159/
+  - *Nike logistics center in Taicang recognized as pioneer for green energy use*. (2024). China Daily. http://jiangsu.chinadaily.com.cn/taicang/2024-02/08/c_962739.htm
+  - Ryan, T. J. (2024). *EXEC: Nike Eyes Stronger Return to Outdoor Business with Renewed ACG Focus*. SGB Media. https://sgbonline.com/nike-eyes-return-to-outdoor-business/
+  - Schulz, M. (2025, July 9). *Fashion faces more uncertainty with new tariff announcements*. Vogue Business. https://www.voguebusiness.com/story/consumers/fashion-faces-more-uncertainty-with-new-tariff-announcements
+  - *South China Morning Post*. (2025, June 26). *Nike says US tariffs will add US$1 billion costs, plans reduce China production*. https://www.scmp.com/news/world/united-states-canada/article/3316008/nike-says-us-tariffs-will-add-us1-billion-costs-plans-reduce-china-production
+  - Team Intoglo. (2025, June 10). *US-China Trade War Escalation with New Tariffs*. https://blog.intoglo.com/us-china-trade-war-escalation-new-tariffs/
   `,
   },
 ];
