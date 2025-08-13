@@ -56,4 +56,119 @@ export const articles = [
   Atz, U. (2023). *Does sustainability generate better financial performance?* *Journal of Sustainable Business*. https://www.tandfonline.com/doi/abs/10.1080/20430795.2022.2106934
   `,
   },
+  {
+    id: 2,
+    title:
+      "The Biggest Decline in U.S. Dollar Value, Precedents, and Where it Will Take Us",
+    excerpt:
+      "The dollar’s latest depreciation echoes past cycles and could reshape consumer prices, capital flows, and corporate strategy through 2025.",
+    category: "Finance",
+    author: "",
+    date: "August 13, 2025",
+    readTime: "7 min read",
+    image: "", // put an image at public/images/usd-cover.jpg
+    content: `
+  **The Biggest Decline in U.S. Dollar Value, Precedents, and Where it Will Take Us**
+  
+  Since 1971, the dollar’s appreciation and depreciation cycles, often closely tied to systemic imbalances that lead to major reallocations of resources, have been extended and distinct, and influence markets worldwide. In late 2024, the challenges of managing unsustainable interest payments were culminating into the glaring devaluation of the dollar that we've observed this year and are likely to keep witnessing on the second half of 2025.
+  
+  The current depreciation calls to mind past phases of depreciation such as the Bretton Woods agreements between 1973 and 1979, the Volcker shock of the 1980s, the Wake Plaza agreements from 1985 to 1995, and 2015 due to the sharp increase in oil prices, all triggered by financial events of global scale. Leading up to this past year, the U.S. economy's performance and dominance of financial markets has been considerably fueled by an aggressive fiscal spending policy relative to other countries' economies. This, combined with the American cost of debt and extreme government deficit to GDP, is an unsustainable path that pivoted the strength and value of the U.S. dollar.
+  
+  As of mid-July, Societe Generale reported that the dollar had fallen by an average of 9% against developed currencies, and 6% against emerging currencies, while Morgan Stanley published on early August that it's expected to devaluate an additional 10% during the second half of 2025 despite its 3.2% recovery in July. It reflects a lesser expected growth gap between the United States and the rest of the world, along with the negative pressure exerted due to the delayed impact of tariffs. The economic uncertainty caused by tariffs and policies of the current administration led to worries about growth, inflation, and public debt.
+  
+  The 2.4% U.S. growth experienced in 2024 is being followed by a 1.5% growth in 2025 and a projected 1% growth with interest rated lowered from the current 5.5% to 2.5% by the end of 2026. Failing to match comparable interest rates in the international market will increase the probability of the dollar weakening even further. This depreciation will most likely have an impact on individuals both within and outside the U.S., affecting consumers, businesses, and investors. For Americans, it will translate into higher expenses when traveling abroad or consuming foreign goods; and for those outside the U.S., it makes American assets less desirable and might lead to increased dollar selling, which would then devaluate its value even more. As of late May, the dollar's nominal effective exchange rate was aligned with predictions of where it should be, although experts are concerned about shift in foreign investor decision-making that will eliminate their dollar exchange risk.
+  
+  **Critical Thinking Questions:**
+  1. What will the day-to-day repercussion of this devaluation look like for average civilians?
+  2. How does the expected decline in the dollar's value align or disagree with current American administration?
+  3. Why is it important for consumers to understand the repercussions of fiscal policy on their lives?
+  4. What are other geopolitical factors that can cause depreciation in currencies around the world?
+  5. What are some ways in which the American economy influences other markets?
+  6. What are comparable scenarios that could have a similar effect on the global economy?
+  7. How might multinational companies react to a decrease in dollar value?
+  8. How can Americans show resilience throughout this change?
+  9. In which ways can a decrease in local currency value impact tourism?
+  10. What makes the foreign exchange market unique?
+  11. Who benefits the most from the depreciation of the dollar?
+  12. How can market psychology/a currency trader's perspective change the market for currency exchange?
+  
+  **Glossary:**
+  - **Depreciation/Devaluation**: The decrease in the value of assets, and the method used to lower the cost of a tangible asset.
+  - **Fiscal policy**: The spending programs and tax policies that the government uses to guide its economy, usually to achieve goals of increased economic growth, increased employment, and stable prices.
+  - **Government deficit**: The balance of income and expenditure of government.
+  - **Growth Gap**: The space between the current reality and the ideal growth.
+  - **Tariffs**: Tax levied upon goods as they cross borders, usually by the government of the importing country.
+  - **Public Debt**: Obligations of governments to pay sums to the holders at some future time.
+  - **Nominal Exchange Rate**: The rate at which one currency can be exchanged for another in the market, essentially the price of a currency in terms of another.
+  - **Nominal Effective Exchange Rate**: A form of measuring a country's nominal exchange rate relative to other currencies using an unadjusted weighted-average calculation.
+  
+  **References:**
+  - A historic year of dollar depreciation. (2025, July 3). A Historic Year of Dollar Depreciation. https://cpram.com/fra/en/individual/publications/experts/article/a-historic-year-of-dollar-depreciation
+  - Del Val, D. (2025, May 20). Anatomy of a depreciation: the dollar in times of economic policy uncertainty. CaixaBank Research. https://www.caixabankresearch.com/en/economics-markets/financial-markets/anatomy-depreciation-dollar-times-economic-policy-uncertainty
+  - The history of US dollar cycles. (2024, December 7). Crescat Capital. https://www.crescat.net/the-history-of-the-us-dollar-cycles/
+  - Watching the Dollar in 2025 | Morgan Stanley. (2025, August 6). Morgan Stanley. https://www.morganstanley.com/insights/articles/us-dollar-declines#:~:text=The%20U.S.%20currency%20depreciation%20could,rise%2C%20putting%20pressure%20on%20inflation
+  - Weekly Update - The depreciation of the dollar as the image of the change in context. (2025, July 4). Société Générale. https://www.privatebanking.societegenerale.com/en/insights/weekly-update-the-depreciation-the-dollar-the-image-the-change-context/
+  `,
+  },
+  {
+    id: 3,
+    title: "From Platform to Product: Unilever's AI Transformation",
+    excerpt:
+      "How Unilever’s partnership with Nvidia is redefining content creation, cutting costs by 87%, and transforming global brand consistency.",
+    category: "Tech",
+    author: "", // or update as needed
+    date: "August 13, 2025",
+    readTime: "7 min read",
+    image: "/unilever-ai.png", // place an image at public/images/unilever-ai.jpg
+    content: `
+  **From Platform to Product: Unilever's AI Transformation**
+  
+  What began as a military and geopolitical rivalry between the United States and China has evolved into a broader race for artificial intelligence dominance. Since the mid-2010s, the AI arms race has shifted from national security interests into a global competition for technological leadership. While governments continue to invest in advanced AI for strategic power, companies across sectors are now embedded in the same contest, fighting to innovate, scale, and stay relevant amongst their competitors.
+  
+  Unlike past industrial shifts, AI brings both speed and existential risk. The incentive to be the “first” has pushed firms to adopt AI aggressively. In the consumer goods sector, companies like Unilever are betting on digital transformation as their response to a high-stakes environment defined by rapid change.
+  
+  Unilever is a global consumer goods powerhouse with ownership in over 400 companies across personal care, foods, and home products including Dove, Ben & Jerry's, Hellmann's, and Axe. In 2025, Unilever partnered with Nvidia to implement digital twin technology, creating highly detailed 3D replicas of its products. These virtual versions are so accurate that every curve, color variation, and label in different languages can be simulated without prototyping a physical product. By uploading these digital twins into Nvidia’s Omniverse platform, Unilever has built a system where marketing content for product images or commercials can be generated entirely in a virtual environment.
+  
+  This move replaces the time-consuming process of shipping products to studios, staging photoshoots, and manually editing each visual. Instead, designers and marketers can now work together inside a shared digital space to make changes instantly. Changes include altering packaging for different regions and adapting visuals for e-commerce, social media, and broadcast ads.
+  
+  This partnership has resulted in significant impact. Unilever has reported up to an **87% reduction in content production costs** and a twofold increase in speed to market. Most importantly, the company can maintain strong visual consistency across its thousands of SKUs and global markets, ensuring that every product looks and feels like the same brand.
+  
+  Unilever’s digital twin strategy demonstrates how companies can stay relevant by aligning transformation with long-term business goals. AI’s potential can reimagine how value is created, delivered, and sustained. Businesses must act now to define their role in this new economy, making bold decisions and embedding them with intention.
+  
+  **Critical Thinking Questions:**
+  1. How is AI reshaping global competition?
+  2. In what ways is the race for AI dominance different from past technological revolutions?
+  3. What responsibilities do companies have in ensuring ethical AI development and deployment during this rapid acceleration?
+  4. How is AI changing the way brands interact with and understand their consumers?
+  5. How does AI-generated marketing challenge traditional notions of authenticity and brand identity?
+  6. How should companies define success in their AI adoptions (beyond just profit and efficiency)?
+  7. How can smaller firms compete with giants like Unilever or Amazon in the AI space?
+  8. In what ways are the AI race similar (and different) to historical arms races or industrial revolutions?
+  9. How can companies determine whether an AI investment is truly transformative or just trend-following?
+  10. Are companies underestimating the long-term societal impacts of rapid digital transformation?
+  11. How does digital twin technology change the nature of creativity in marketing?
+  12. What internal resistance might companies face when introducing digital twin models or similar AI systems?
+  
+  **Glossary:**
+  - **AI Arms Race**: a global competition among countries & corporations to develop and deploy artificial intelligence technologies to gain strategic, economic, or technological advantage.
+  - **Stock Keeping Unit (SKU)**: a unique identifier for each distinct product or service that can be purchased.
+  - **Machine Learning**: a branch of artificial intelligence focused on enabling computers and machines to imitate the way that humans learn, to perform tasks autonomously, and to improve their performance and accuracy through experience and exposure to more data.
+  - **Content Production Pipeline**: the structured process through which marketing content is created, edited, approved, and distributed.
+  - **Operational Agility**: a company’s ability to rapidly adapt and respond to changes in the market or environment in an efficient and flexible manner.
+  - **Sustainability Metrics**: measures used to track an organization’s environmental impact, such as carbon emissions, resource usage, and waste reduction.
+  
+  ![Nvidia AI Modeling Tool](https://www.nvidia.com/en-us/on-demand/session/gtc25-S71412/)
+  
+  **References:**
+  - Frazier, K., Xu, K., & Patja, J. (2024). *Lawfare Daily: Kevin Xu on the State of the AI Arms Race Between the U.S. and China*. Lawfare. https://www.lawfaremedia.org/article/lawfare-daily--kevin-xu-on-the-state-of-the-ai-arms-race-between-the-u.s.-and-china
+  - Kiran Voleti. (2025, March 21). *In today’s hyper-connected, omni-channel world, brands are under relentless pressure to produce high-quality, engaging content at scale...*. LinkedIn. https://www.linkedin.com/pulse/unilevers-digital-twin-strategy-new-paradigm-marketing-kiran-voleti-d3e9c/
+  - Law, M. (2024, January 22). *How Unilever Uses AI & Digital Solutions in its Operations*. Technology Magazine. https://technologymagazine.com/articles/how-unilever-is-using-ai-and-digital-solutions
+  - McMillan, A. (2025, April 22). *How Unilever is Digitising the Entire Value Chain*. Procurement Magazine. https://procurementmag.com/digital-procurement/unilever-digitising-entire-value-chain
+  - Schoelmann, E. (2024, May 13). *Unilever Supply Chain: Lessons Learned on Digital Transformation*. RFgen. https://www.rfgen.com/blog/unilever-supply-chain-lessons-learned-on-digital-transformation/
+  - Unilever. (2025, February 3). *How Unilever’s digital transformation is driving operational excellence*. https://www.unilever.com/news/news-search/2025/how-unilevers-digital-transformation-is-driving-operational-excellence/
+  - Unilever. (2024, July 31). *Utilising AI to Redefine the Future of Customer Connectivity*. https://www.unilever.com/news/news-search/2024/utilising-ai-to-redefine-the-future-of-customer-connectivity/
+  - *Unilever: Using AI to empower people to supercharge… | PA Consulting*. (2024). PA Consulting. https://www.paconsulting.com/client-story/unilever-using-ai-to-empower-people-to-supercharge-innovation-and-drive-growth
+  - Veeva Systems. (2025). *Unilever's digital transformation with Veeva*. https://www.industries.veeva.com/case-studies/unilevers-digital-transformation-with-veeva
+  `,
+  },
 ];
