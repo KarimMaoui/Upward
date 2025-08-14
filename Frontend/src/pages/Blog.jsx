@@ -61,7 +61,7 @@ const Blog = () => {
                   <img
                     src={article.image}
                     alt={article.title}
-                    className="w-full h-48 object-cover"
+                    className="mx-auto h-auto object-cover"
                   />
                 </div>
                 <div className="p-6">

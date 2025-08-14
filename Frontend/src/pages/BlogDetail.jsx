@@ -67,7 +67,7 @@ export default function BlogDetail() {
         <section className="bg-white">
           <div className="container-max">
             <img
-              src={article.image} // e.g. "/images/esg-cover.jpg"
+              src={article.image}
               alt={article.title}
               className="w-full h-auto rounded-xl border border-gray-200"
             />

@@ -175,7 +175,7 @@ export const articles = [
     id: 4,
     title: "How is AI Changing The Way We Learn Business English?",
     excerpt:
-      "English is now a core career asset. With AI, learning shifts from grammar drills to confidence, clarity, and real-world impact—especially for professionals aiming to operate globally.",
+      "English is now a core career asset. With AI, learning shifts from grammar drills to confidence, clarity, and real-world impact, especially for professionals aiming to operate globally.",
     category: "Tech",
     author: "", // change if needed
     date: "August 13, 2025",
