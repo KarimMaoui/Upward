@@ -1,70 +1,7 @@
 import { Link } from "react-router-dom";
+import { tutors } from "../data/tutors";
 
 const Tutors = () => {
-  // use mock data now, can be replaced later
-  const tutors = [
-    {
-      id: 1,
-      name: "Tutor 1",
-      role: "Communication Expert",
-      specialty: "Public Speaking & Presentation Skills",
-      experience: "15+ years",
-      rating: 4.9,
-      sessions: 500,
-      image: "/api/placeholder/300/300",
-    },
-    {
-      id: 2,
-      name: "Tutor 2",
-      role: "Leadership Coach",
-      specialty: "Executive Communication & Team Leadership",
-      experience: "12+ years",
-      rating: 4.8,
-      sessions: 450,
-      image: "/api/placeholder/300/300",
-    },
-    {
-      id: 3,
-      name: "Tutor 3",
-      role: "Career Coach",
-      specialty: "Interview Preparation & Professional Development",
-      experience: "10+ years",
-      rating: 4.9,
-      sessions: 380,
-      image: "/api/placeholder/300/300",
-    },
-    {
-      id: 4,
-      name: "Tutor 4",
-      role: "Sales Communication Specialist",
-      specialty: "Sales Presentations & Negotiation Skills",
-      experience: "18+ years",
-      rating: 4.7,
-      sessions: 600,
-      image: "/api/placeholder/300/300",
-    },
-    {
-      id: 5,
-      name: "Tutor 5",
-      role: "Media & PR Coach",
-      specialty: "Media Training & Crisis Communication",
-      experience: "14+ years",
-      rating: 4.8,
-      sessions: 420,
-      image: "/api/placeholder/300/300",
-    },
-    {
-      id: 6,
-      name: "Tutor 6",
-      role: "Technical Communication Expert",
-      specialty: "Technical Presentations & Complex Communication",
-      experience: "16+ years",
-      rating: 4.9,
-      sessions: 480,
-      image: "/api/placeholder/300/300",
-    },
-  ];
-
   return (
     <div>
       {/* Hero Section */}
@@ -100,10 +37,11 @@ const Tutors = () => {
                 key={tutor.id}
                 className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                <div className="bg-gray-200 h-64 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">
-                    Tutor {tutor.id}
-                  </span>
+                <div className="bg-gray-200 mx-auto h-auto flex items-center justify-center">
+                  <img
+                    src={tutor.image}
+                    className="mx-auto h-auto object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -122,15 +60,15 @@ const Tutors = () => {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Rating:</span>
+                      {/* <span className="text-gray-600">Rating:</span>
                       <span className="text-gray-900 font-medium">
                         ⭐ {tutor.rating}
-                      </span>
+                      </span> */}
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Sessions:</span>
+                      <span className="text-gray-600">Bio:</span>
                       <span className="text-gray-900 font-medium">
-                        {tutor.sessions}+
+                        {tutor.bio}
                       </span>
                     </div>
                   </div>

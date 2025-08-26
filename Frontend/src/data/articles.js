@@ -281,4 +281,118 @@ export const articles = [
   - Team Intoglo. (2025, June 10). *US-China Trade War Escalation with New Tariffs*. https://blog.intoglo.com/us-china-trade-war-escalation-new-tariffs/
   `,
   },
+  {
+    id: 6,
+    title:
+      "The Dark Side of Fast Fashion: Modern Slavery and the Limits of the UK’s Act",
+    excerpt:
+      "Nearly a decade after the UK’s Modern Slavery Act, modern slavery is on the rise as fast fashion giants like Shein exploit transparency gaps and global supply chains.",
+    category: "Fashion",
+    author: "",
+    date: "August 24, 2025",
+    readTime: "9 min read",
+    image: "/fast-fashion.png",
+    content: `
+**The Dark Side of Fast Fashion: Modern Slavery and the Limits of the UK’s Act**
+
+In 2015, the United Kingdom passed the Modern Slavery Act. This legislation, the first of its kind, was designed to protect labor rights and end human trafficking. The act required larger companies with revenues over £36 million to publish their annual statements on measures taken to eliminate exploitation within their supply chains. Lawmakers envisioned a framework where greater transparency would promote accountability against abusive practices and empower consumers to make ethical choices. 
+
+However, nearly a decade later, with an estimated 50 million people trapped in forced labor worldwide, modern slavery is on the rise. What explains the failure of this policy? Reports from NGOs argue that the act lacks enforcement. Companies are required to publish transparency statements, but there are no penalties if those statements are weak or incomplete. 
+
+As a result, the global fashion industry remains a vital source of exploitative practices, where cheap, outsourced labor widens profit margins. From cotton farming, garment stitching, to factory production, rapid production cycles to meet consumer demand often work in situations that straddle the boundary between insecure employment and outright exploitation.
+
+Shein, the ultra-fast fashion giant originated in China, exemplifies the shortcomings of the Modern Slavery Act. Despite operating in markets covered by the law, Shein has faced allegations of failing to disclose labor conditions within its vast supplier network. Reports describe garment workers earning pennies per item while working punishing shifts in unsafe environments. Investigations found evidence suggesting the company abuses its fragmented logistics chains to conceal the exact origins of their garments.
+
+In hindsight, transparency without enforcement has failed to drive meaningful change. There is minimal incentive to change business practices when cogent statements satisfy disclosure requirements. The push for reform is becoming increasingly urgent. For instance, in 2024, human rights group *Stop Uyghur Genocide* launched a successful campaign to block Shein's London IPO over concerns about its labor practices. In similar news, British retail consultant Mary Portas and former Green Party lawmaker Caroline Lucas backed the “Say No to Shein” campaign, urging the UK government to block the company’s London listing until a thorough investigation into its labor practices, environmental impact, and tax arrangements is conducted.
+
+The Modern Slavery Act has been a significant first step in addressing the global labor exploitation network. It started the conversation on the future of the fashion industry and how it remains a struggle between rapid production and ethical responsibility. It is a pivotal moment for lawmakers to collaborate on intentional oversight, real accountability, and systems that promote ethical production. Above all, it calls on consumers to reflect on the impact of their choices and demand more transparency from the brands they support.
+
+**Critical Thinking Questions:**
+1. Should consumers bear responsibility for supporting brands linked to labor abuses?
+2. What is your knowledge on modern consumerism? How do you think it relates to labor laws?
+3. Is legislation alone enough to end modern slavery in fashion, or does meaningful change require cultural and economic shifts as well?
+4. How can investors hold companies accountable for ethical supply chain practices?
+5. How does the rise of ultra-fast fashion complicate enforcement of labor laws?
+6. What role do fast fashion business models play in perpetuating labor abuses?
+7. How should governments impose stricter consequences on companies that fail to meet modern slavery reporting standards?
+8. How can consumers meaningfully assess whether their purchases are free from forced labor in an era of complex global supply chains?
+9. Are voluntary corporate social responsibility initiatives ever enough, or is legally mandated accountability always necessary?
+10. How does globalization complicate accountability for labor abuses?
+11. How do cultural perceptions of fashion and consumerism influence the urgency and effectiveness of ethical reforms?
+12. How does the demand for new trends affect people, the planet, and society?
+
+**Glossary:**
+- **Modern Slavery Act**: a 2015 UK legislation requiring large companies to publish annual statements detailing actions taken to prevent forced labor and human trafficking in their supply chains
+- **Forced Labor**: any work or service that a person is compelled to do against their will under the threat of a penalty
+- **Supply Chain**: the complete network of entities, processes, and logistics involved in producing and delivering a product to consumers
+- **Fast Fashion**: a retail model that rapidly produces low-cost, trend-driven clothing, often linked to exploitative labor practices
+- **NGO / Human Rights Group**: organizations (independent from governments) that monitor, report, and advocate for human rights and labor standards
+- **Outsourced Labor**: workers employed by third-party suppliers, often in different countries, to reduce production costs
+- **Labor Exploitation**: practices that unfairly use workers’ labor, often involving unsafe conditions, underpayment, or coercion
+
+**References:**
+- Anti-Slavery International. (2025). *What Is Modern Slavery?* Anti-Slavery; Anti-Slavery International. https://www.antislavery.org/slavery-today/modern-slavery/
+- Business. (2021). *Chinese retailer Shein allegedly fails to disclose working conditions along supply chain as required by modern slavery laws in UK and Australia*. Business & Human Rights Resource Centre. https://www.business-humanrights.org/it/ultime-notizie/chinese-retailer-shein-allegedly-fails-to-disclose-working-conditions-along-supply-chain-as-required-by-modern-slavery-laws-in-uk-and-australia/
+- GOV.UK. (2015). *Modern Slavery Act 2015*. www.legislation.gov.uk. https://www.legislation.gov.uk/ukpga/2015/30/contents
+- International, A.-S. (2022, February 21). *The dark side of fashion: calling for legal reform this Fashion Week*. Anti-Slavery International. https://www.antislavery.org/latest/the-dark-side-of-fashion-why-were-calling-for-legal-reform-this-fashion-week/
+- *Not Worried About Modern Slavery or Forced Labour Laws? Perhaps You Should Be.* (2015). Crowell & Moring LLP. https://www.crowell.com/en/insights/client-alerts/not-worried-about-modern-slavery-or-forced-labour-laws-perhaps-you-should-be
+- O’Dell, H. (2023, October 19). *The cost of Shein and Temu’s low prices*. Globalaffairs.org. https://globalaffairs.org/commentary-and-analysis/blogs/how-shein-and-temu-get-around-us-labor-laws-ban-products-made-forced-labor
+- Reuters. (2024, June 26). *UK human rights group launches campaign to stop Shein’s potential London IPO*. Reuters. https://www.reuters.com/business/retail-consumer/uk-human-rights-group-launches-campaign-stop-sheins-potential-london-ipo-2024-06-26/
+- *Shein’s Potential London IPO: A Human Rights Analysis for Investors | Slave-Free Alliance*. (2024, June 17). Slave-Free Alliance. https://www.slavefreealliance.org/sheins-potential-london-ipo-a-human-rights-analysis-for-investors/
+- Schulz, M. (2023, May 25). *Modern slavery is on the rise. Fashion’s role remains steady*. Vogue Business. https://www.voguebusiness.com/sustainability/modern-slavery-is-on-the-rise-fashions-role-remains-steady
+- Silva, J. da. (2024, August 23). *Fast fashion giant Shein finds child labour cases in supply chain*. BBC News. https://www.bbc.com/news/articles/c4glzzdd88lo
+- Silva, Y. (2025, April 14). *The fast fashion model: why the problem goes beyond Shein*. Anti-Slavery International. https://www.antislavery.org/latest/shein-fast-fashion-problem/
+- Slave-Free Alliance. (2023, July 3). *The True Price of Fashion: How does modern slavery exist in the fashion industry?* www.slavefreealliance.org. https://www.slavefreealliance.org/the-true-price-of-fashion-how-does-modern-slavery-exist-in-the-fashion-industry/
+- Turner, J. (2025, March 24). *The Modern Slavery Act 10 years later: Why it’s failed to end modern slavery*. Anti-Slavery International. https://www.antislavery.org/latest/the-modern-slavery-act-10-years-later-why-its-failed-to-end-modern-slavery/
+- Unseen. (2023, February 8). *Modern slavery in fashion*. Unseen. https://www.unseenuk.org/modern-slavery-in-fashion/
+  `,
+  },
+  {
+    id: 7,
+    title:
+      "The U.S. Affordable Housing Crisis: Causes, Consequences, and Solutions",
+    excerpt:
+      "The U.S. faces an extreme shortage of affordable rental homes, disproportionately affecting low-income renters, older adults, people with disabilities, and people of color.",
+    category: "Economy",
+    author: "",
+    date: "August 25, 2025",
+    readTime: "8 min read",
+    image: "/affordable-housing.png",
+    content: `
+  **The U.S. Affordable Housing Crisis: Causes, Consequences, and Solutions**
+  
+  The United States is currently experiencing an extreme affordable housing crisis caused by the shortage of rental homes and units available to low-income renters. This issue dates back decades, but worsened after the 2008 financial crisis, which led to a decline in housing construction projects and an increase in families seeking to rent instead of buy. Over the years, the crisis has started to affect more and more people, disproportionately impacting groups like older adults, people with disabilities, and people of color.
+  
+  Affordable housing is defined by the U.S. Department of Housing and Urban Development as housing on which the occupant is paying no more than 30% of their gross income on housing costs, including utilities. Maintaining housing costs below 30% of income is meant to ensure that households have enough money to pay for other non-discretionary costs. Households who spend over 30% of their income on housing expenses are considered cost-burdened. The National Alliance to End Homelessness reports that 87% of extremely low-income renters are cost-burdened. Additionally, extremely low-income renters face a shortage of 7.1 million affordable and available rental homes, with only 35 affordable rental homes available for every 100 extremely low-income renters. Furthermore, 3 out of every 4 households eligible for federal housing assistance do not receive it due to lack of program funding.
+  
+  This is a nationwide issue, although the scale and nature of the housing challenges vary by community type. In cities with populations over 80 million, the costs of living and levels of inequality tend to be higher. About 25% of the housing gap (2 million units) is concentrated in these cities. Black Americans in these communities are disproportionately affected, with 1 in 3 experiencing this reality. Another 17% of the housing gap (1.4 million units) is found in suburbs and exurbs of major American cities, and 13% (1 million units) is found in stable rural areas of the country.
+  
+  High rental costs lead to related challenges, including difficulty meeting other needs like food, healthcare, transportation, and childcare expenses. By contrast, access to quality affordable housing can greatly improve quality of life by increasing access to jobs, education, green spaces, and the ability to build wealth. McKinsey & Company reports that closing the housing gap would require an overall investment of $2.7 trillion but would generate $1.9 trillion in GDP growth and create 1.7 million new jobs. Finally, historian Lily Geismer argues that for true and lasting change, the federal government must recognize housing as a right rather than a commodity.
+  
+  **Critical Thinking Questions:**
+  1. What are some benefits of housing remaining part of the private market? Do they outweigh the costs?
+  2. What are some potential long-term effects on families and communities if affordable housing remains inaccessible?
+  3. How might the lack of affordable housing influence broader issues like healthcare, education, or employment?
+  4. Why are some groups in society most vulnerable to housing shortages?
+  5. What role should the federal government play in addressing the affordable housing crisis compared to local governments or the private sector?
+  6. How do you think rising rental costs could affect young adults entering the workforce today?
+  7. If you had to design one policy to expand affordable housing, what approach would you take and why?
+  8. How might affordable housing impact economic mobility across generations?
+  9. What are some potential unintended consequences of government housing assistance programs?
+  10. Are there similar challenges in your community? What are they?
+  11. In what ways might affordable housing availability affect patterns of urban development and gentrification?
+  12. How do cultural attitudes toward renting versus owning shape the housing market in the U.S.?
+  
+  **Glossary:**
+  - **Non-discretionary costs**: essential, mandatory expenses that an individual or household must pay to meet basic needs.
+  - **Housing gap**: the difference between the number of affordable homes available and the number of households needing them.
+  - **Exurb**: a district outside a city, often more prosperous and beyond the suburbs.
+  
+  **References:**
+  - History, L. G. /. M. B. (2024, March 25). *America needs a new approach on affordable housing. History offers a guide.* TIME. https://time.com/6900050/public-housing-biden-plan-history/
+  - McKinsey Institute for Economic Mobility. (2025, August 11). *Mapping the US affordable housing crisis and unlocking opportunities for economic mobility.* https://www.mckinsey.com/institute-for-economic-mobility/our-insights/mapping-the-us-affordable-housing-crisis-and-unlocking-opportunities-for-economic-mobility
+  - National Alliance to End Homelessness. (2025, March 28). *What causes homelessness: A shortage of affordable housing.* https://endhomelessness.org/a-shortage-of-affordable-housing/
+  - National League of Cities. (2024, January 8). *What is Affordable Housing?* https://www.nlc.org/article/2024/01/08/what-is-affordable-housing/
+    `,
+  },
 ];
