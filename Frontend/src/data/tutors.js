@@ -1,5 +1,16 @@
 export const tutors = [
   {
+    id: 0,
+    name: "Sophia",
+    role: "English Language Consultant",
+    specialty: "Comparative Literature",
+    experience: "5+ years",
+    rating: 5.0,
+    image: "/Sophia.jpg",
+    bio: "Sophia is excited to bring to her many years of experience in online-tutoring and teaching English to her clients at Upward. Having studied Comparative Literature at the University of California, Berkeley, she is versed in advanced English and loves being able to share her knowledge and passion for the language with others. She believes good communication is key to establishing trust and rapport and that language is therefore essential for optimal professional relations. She particularly enjoys tailoring her lessons to help her students reach their unique goals and works hard to keep her lessons engaging and relevant to each student’s needs. Further, she is currently working towards Spanish-fluency in the medical field, and so has familiarity with the struggles of advanced language acquisition in a professional setting. This allows her to bring a level of sympathy and understanding of her students’ experience to her lessons.",
+  },
+
+  {
     id: 1,
     name: "Savion Garcia",
     role: "English Language Consultant",
