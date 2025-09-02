@@ -357,7 +357,7 @@ The Modern Slavery Act has been a significant first step in addressing the globa
     author: "",
     date: "August 25, 2025",
     readTime: "8 min read",
-    image: "/affordable-housing.png",
+    image: "/US-affordable.jpeg",
     content: `
   **The U.S. Affordable Housing Crisis: Causes, Consequences, and Solutions**
   
@@ -393,6 +393,50 @@ The Modern Slavery Act has been a significant first step in addressing the globa
   - McKinsey Institute for Economic Mobility. (2025, August 11). *Mapping the US affordable housing crisis and unlocking opportunities for economic mobility.* https://www.mckinsey.com/institute-for-economic-mobility/our-insights/mapping-the-us-affordable-housing-crisis-and-unlocking-opportunities-for-economic-mobility
   - National Alliance to End Homelessness. (2025, March 28). *What causes homelessness: A shortage of affordable housing.* https://endhomelessness.org/a-shortage-of-affordable-housing/
   - National League of Cities. (2024, January 8). *What is Affordable Housing?* https://www.nlc.org/article/2024/01/08/what-is-affordable-housing/
+    `,
+  },
+  {
+    id: 8,
+    title: "Personal Branding Through Fashion and Authenticity",
+    excerpt:
+      "Personal branding is the practice of defining and expressing your value. Fashion can be a powerful tool to communicate authenticity and individuality.",
+    category: "Fashion",
+    author: "",
+    date: "September 1, 2025",
+    readTime: "7 min read",
+    image: "/personal-branding.png",
+    content: `
+  **Personal Branding Through Fashion and Authenticity**
+    
+  Personal branding, according to Harvard Business School, is "the amalgamation of associations, beliefs, feelings, attitudes, and expectations that people collectively hold about you". In other words, the intentional and strategic practice of defining and expressing your value. Its goal is to ensure that the narrative about you is accurate, draws people in, and demonstrates how you're unique among others. In order to build your personal brand, you must define your purpose by identifying your values, goals, and purpose. Then, after crafting your narrative, you should communicate and embody your brand to make your value accessible and visible.
+    
+  A way to make your brand visible is by utilizing fashion and self-image to differentiate yourself and communicate your character non-verbally. Chief executive of an influencer management agency Raina Penchavsky writes "What you're striving for in fashion is to be able to articulate in a moment, in a visual, who and what you are". Fashion plays a large part of first impressions, key to making or breaking a long-term business or interpersonal relationship. To build your personal brand through fashion, you must first identify a style and pick out outfits that make you feel confident. This way, you'll feel comfortable with how you present yourself and carry over this confidence into your mindset and speech. Then, once you've chosen a style, be consistent with it. Dressing consistently will make you easily identifiable to people around you, and save time in the mornings. Lastly, it's important to remember to be authentic and find a brand that is true to yourself.
+    
+  Personal styling can change and evolve over time, just as individuals do. Someone with an extensive career and consistent branding is American singer Taylor Swift, who has consistently presented herself as a relatable artist whose music is a reflection of her lived experiences. The public persona that she has cultivated over the years plays great part in her success as it resonates with her fans, who believe her to be open and vulnerable with them. Her commitment to authenticity is made visible through her highly curated styling, always in line with what her art is communicating. She has shown a willingness to take risks and admirable adaptability. From launching her career with a youthful country look to the dark colors and harsh textures of her "Reputation" era, she has demonstrated the importance of personal style and memorability.
+    
+  **Critical Thinking Questions:**
+  1. Who are some other public figures with strong personal branding?
+  2. How would you start out your journey to find your own personal style?
+  3. Why is it important for individuals to intentionally shape the narrative about themselves rather than letting others define it?
+  4. What are some values and goals that would be essential to your personal brand?
+  5. In what ways can fashion communicate aspects of a personal brand more effectively than words?
+  6. What are the potential risks of relying too heavily on appearance to establish a personal brand?
+  7. How can consistency in personal style contribute to both recognition and efficiency in daily life?
+  8. What challenges might arise when trying to balance authenticity with external expectations in personal branding?
+  9. What lessons can professionals in non-creative industries learn from the way celebrities, like Taylor Swift, manage their personal brands?
+  10. To what extent is personal branding a privilege, dependent on resources such as time, money, and access to fashion?
+  11. How might personal branding strategies differ between in-person interactions and online presence?
+  12. Do you think personal branding enhances individuality, or does it encourage conformity to marketable images? Why?
+    
+  **Glossary:**
+  - **Amalgamation**: The action, process, or result of combining.
+  - **Persona**: The aspect of someone's character that is presented to others.
+    
+  **References:**
+  - Arruda, W. (2024, February 5). *What Taylor Swift can teach you about your personal brand.* Forbes. https://www.forbes.com/sites/williamarruda/2024/02/05/what-taylor-swift-can-teach-you-about-your-personal-brand/
+  - Avram, M. (2024, September 26). *How to build your personal brand.* The Business of Fashion. https://www.businessoffashion.com/articles/workplace-talent/insiders-advice-careers-build-develop-personal-brand-fashion/
+  - Koifman, N. (2022, September 7). *Council Post: Building your personal brand using fashion.* Forbes. https://www.forbes.com/councils/forbesbusinesscouncil/2022/09/07/building-your-personal-brand-using-fashion/
+  - Personal Branding: What it is and why it matters. (2024, March 21). *Business Insights Blog.* https://online.hbs.edu/blog/post/personal-branding-at-work
     `,
   },
 ];
