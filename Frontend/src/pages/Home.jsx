@@ -16,7 +16,7 @@ const Home = () => {
         <img
           src="/adaptability.png"
           alt="adaptability"
-          className="w-8 h-8 inline-block"
+          className="w-16 h-16 inline-block"
         />
       ),
     },
@@ -27,7 +27,7 @@ const Home = () => {
         <img
           src="/business.png"
           alt="business"
-          className="w-8 h-8 inline-block"
+          className="w-16 h-16 inline-block"
         />
       ),
     },
