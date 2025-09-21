@@ -111,7 +111,7 @@ const Tutors = () => {
       <section className="section-padding bg-gray-50">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Why Choose Our Coaches?
+            Why Choose Our Consultants?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
