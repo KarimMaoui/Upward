@@ -28,7 +28,7 @@ const Blog = () => {
       </section>
 
       {/* Categories Section */}
-      <section className="section-padding bg-white border-b border-gray-200">
+      <section className="section-padding bg-white border-b border-gray-200 pt-0">
         <div className="container-max">
           <div className="flex flex-wrap justify-center gap-4">
             {categories.map((category) => (

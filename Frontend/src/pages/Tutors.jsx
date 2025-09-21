@@ -8,7 +8,7 @@ const Tutors = () => {
       <section className="bg-gradient-to-br from-gray-50 to-white section-padding">
         <div className="container-max text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Meet our tutors
+            Meet our consultants
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Our expert coaches are industry professionals with proven track
@@ -19,7 +19,9 @@ const Tutors = () => {
           </Link>
           <div className="mt-12">
             <div className="bg-gray-200 rounded-lg h-64 md:h-96 flex items-center justify-center">
-              <span className="text-gray-500 text-lg">Tutors Hero Visual</span>
+              <span className="text-gray-500 text-lg">
+                Consultants Hero Visual
+              </span>
             </div>
           </div>
         </div>
@@ -29,7 +31,7 @@ const Tutors = () => {
       <section className="section-padding bg-white">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Our Tutors
+            Our Consultants
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {tutors.map((tutor) => (

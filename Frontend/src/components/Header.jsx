@@ -7,7 +7,7 @@ const Header = () => {
   const navigation = [
     { name: "B2B Services", href: "/services-b2b" },
     { name: "B2C Services", href: "/services-b2c" },
-    { name: "Our Tutors", href: "/tutors" },
+    { name: "Our Consultants", href: "/tutors" },
     { name: "How It Works", href: "/how-it-works" },
     { name: "Free Resources", href: "/blog" },
     { name: "CSV Page", href: "/terms" },
