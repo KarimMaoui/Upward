@@ -119,7 +119,7 @@ const Tutors = () => {
                 <img
                   src="/expert.png"
                   alt="expert"
-                  className="w-8 h-8 inline-block"
+                  className="w-16 h-16 inline-block"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -135,7 +135,7 @@ const Tutors = () => {
                 <img
                   src="/travel-bag.png"
                   alt="travel"
-                  className="w-8 h-8 inline-block"
+                  className="w-16 h-16 inline-block"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
@@ -151,7 +151,7 @@ const Tutors = () => {
                 <img
                   src="/graph.png"
                   alt="graph"
-                  className="w-8 h-8 inline-block"
+                  className="w-16 h-16 inline-block"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
