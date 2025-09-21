@@ -11,7 +11,7 @@ const Tutors = () => {
             Meet our consultants
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Our expert coaches are industry professionals with proven track
+            Our expert consultants are industry professionals with proven track
             records in communication, leadership, and professional development.
           </p>
           <Link to="/book-session" className="btn-primary">
@@ -96,9 +96,9 @@ const Tutors = () => {
 
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
-              Each of our coaches brings unique expertise and experience to help
-              you achieve your communication goals. Browse their profiles to
-              find the perfect match for your needs.
+              Each of our consultant brings unique expertise and experience to
+              help you achieve your communication goals. Browse their profiles
+              to find the perfect match for your needs.
             </p>
             <Link to="/book-session" className="btn-primary">
               Book a Consultation
@@ -126,7 +126,7 @@ const Tutors = () => {
                 Expert Qualifications
               </h3>
               <p className="text-gray-600">
-                All our coaches hold advanced degrees and certifications in
+                All our consultants hold advanced degrees and certifications in
                 communication, leadership, and coaching methodologies.
               </p>
             </div>
