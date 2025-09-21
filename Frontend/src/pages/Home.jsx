@@ -5,7 +5,9 @@ const Home = () => {
     {
       title: "Elite Coaches",
       description: "Learn from Ivy League & top schools",
-      icon: <img src="/dart.png" alt="dart" className="w-8 h-8 inline-block" />,
+      icon: (
+        <img src="/dart.png" alt="dart" className="w-16 h-16 inline-block" />
+      ),
     },
     {
       title: "Flexible Format",
@@ -69,8 +71,8 @@ const Home = () => {
             <Link to="/book-session" className="btn-primary">
               START YOUR JOURNEY
             </Link>
-            <Link to="/services-b2c" className="btn-secondary">
-              PRICING
+            <Link to="/how-it-works" className="btn-secondary">
+              PROCESS
             </Link>
           </div>
           <div className="mt-12">
