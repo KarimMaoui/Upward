@@ -67,8 +67,8 @@ const Tutors = () => {
                         ⭐ {tutor.rating}
                       </span> */}
                     </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-600">Bio: </span>
+                    <div className="flex text-sm">
+                      <span className="text-gray-600 mr-1">Bio: </span>
                       <span className="text-gray-900 font-medium">
                         {tutor.bio.split(".")[0]}
                       </span>
