@@ -19,7 +19,7 @@ const Terms = () => {
       {/* Terms Content */}
       <section className="section-padding bg-white">
         <div className="container-max max-w-4xl">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-sm leading-snug max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
               By accessing and using the Upward platform and services, you

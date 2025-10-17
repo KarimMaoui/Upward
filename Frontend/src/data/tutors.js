@@ -12,7 +12,7 @@ export const tutors = [
 
   {
     id: 1,
-    name: "Savion Garcia",
+    name: "Savion",
     role: "English Language Consultant",
     specialty: "Business English, Strategy & Public Policy Communication",
     experience: "5+ years",
@@ -32,7 +32,7 @@ export const tutors = [
   },
   {
     id: 3,
-    name: "Ira Sarkar",
+    name: "Ira",
     role: "English Language Consultant",
     specialty: "Molecular and Cellular Biology",
     experience: "5+ years",
@@ -59,7 +59,7 @@ export const tutors = [
     experience: "5+ years",
     rating: 5.0,
     image: "/Sonja.png",
-    bio: " Sonja holds an LL.M. from Yenching Academy of Peking University and a B.A. in Political Science and Human Rights from Columbia University. She has lived and studied on four continents including Chiayi City as a Fulbright Scholar and New Taipei City, Taiwan as a National Security Language Initiative Scholar. Sonja has lived in Barcelona, Beijing, Cairo, Paris, and New York City. She has focused on conflict resolution work surrounding the Taiwan Strait, U.S.-China relations, and the Korean Peninsula. Sonja plans to build a career in conflict resolution and human rights.",
+    bio: " Sonja holds an LLM from Yenching Academy of Peking University and a BA in Political Science and Human Rights from Columbia University. She has lived and studied on four continents including Chiayi City as a Fulbright Scholar and New Taipei City, Taiwan as a National Security Language Initiative Scholar. Sonja has lived in Barcelona, Beijing, Cairo, Paris, and New York City. She has focused on conflict resolution work surrounding the Taiwan Strait, U.S.-China relations, and the Korean Peninsula. Sonja plans to build a career in conflict resolution and human rights.",
   },
 
   {
