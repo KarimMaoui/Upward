@@ -33,19 +33,32 @@ const Tutors = () => {
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
             Our Consultants
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {tutors.map((tutor) => (
+              // <div
+              //   key={tutor.id}
+              //   className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              // >
               <div
                 key={tutor.id}
-                className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full"
               >
-                <div className="bg-gray-200 mx-auto h-auto flex items-center justify-center">
+                {/* <div className="bg-gray-200 mx-auto h-auto flex items-center justify-center">
                   <img
                     src={tutor.image}
                     className="mx-auto h-auto object-cover"
                   />
+                </div> */}
+                <div className="relative w-full aspect-[4/3] bg-gray-100">
+                  <img
+                    src={tutor.image}
+                    alt={tutor.name}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 </div>
-                <div className="p-6">
+
+                {/* <div className="p-6"> */}
+                <div className="flex-1 p-6 flex flex-col">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {tutor.name}
                   </h3>
@@ -75,7 +88,8 @@ const Tutors = () => {
                     </div>
                   </div>
 
-                  <div className="flex gap-2">
+                  {/* <div className="flex gap-2"> */}
+                  <div className="mt-auto flex gap-3">
                     <Link
                       to={`/tutors/${tutor.id}`}
                       className="flex-1 btn-secondary text-center py-2"
@@ -96,7 +110,7 @@ const Tutors = () => {
 
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
-              Each of our consultant brings unique expertise and experience to
+              Each of our consultants brings unique expertise and experience to
               help you achieve your communication goals. Browse their profiles
               to find the perfect match for your needs.
             </p>
