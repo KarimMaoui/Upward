@@ -142,14 +142,14 @@ const ServicesB2C = () => {
       <section className="section-padding bg-white">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Coach preview section
+            Consultants preview section
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {coaches.map((coach, index) => (
               <div key={index} className="text-center">
                 <div className="bg-gray-200 rounded-lg h-48 mb-6 flex items-center justify-center mx-auto w-48">
                   <span className="text-gray-500 text-lg">
-                    Coach {index + 1}
+                    Consultant {index + 1}
                   </span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -165,13 +165,13 @@ const ServicesB2C = () => {
           </div>
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
-              Our coaches are industry experts with years of experience in
+              Our consultants are industry experts with years of experience in
               communication, leadership, and professional development. They're
               here to help you achieve your goals and unlock your full
               potential.
             </p>
             <Link to="/tutors" className="btn-primary">
-              Meet All Coaches
+              Meet All Consultants
             </Link>
           </div>
         </div>
