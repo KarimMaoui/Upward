@@ -110,12 +110,14 @@ const ServicesB2B = () => {
             <div>
               <ul className="space-y-4">
                 {courseFormats.map((format, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4 mt-1">
+                  <li key={index} className="flex items-center">
+                    <div className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4">
                       {index + 1}
                     </div>
                     {/* <div className="w-2 h-2 bg-black rounded-full mr-4"></div> */}
-                    <span className="text-lg text-gray-700">{format}</span>
+                    <span className="text-lg text-gray-700 leading-tight">
+                      {format}
+                    </span>
                   </li>
                 ))}
               </ul>
