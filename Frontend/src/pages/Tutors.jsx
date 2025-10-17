@@ -68,9 +68,9 @@ const Tutors = () => {
                       </span> */}
                     </div>
                     <div className="flex text-sm">
-                      <span className="text-gray-600 mr-1">Bio: </span>
-                      <span className="text-gray-900 font-medium">
-                        {tutor.bio.split(".")[0]}
+                      <span className="text-gray-600 mr-2 shrink-0">Bio: </span>
+                      <span className="text-gray-900 font-medium flex-1 min-w-0 truncate">
+                        {tutor.bio}
                       </span>
                     </div>
                   </div>
