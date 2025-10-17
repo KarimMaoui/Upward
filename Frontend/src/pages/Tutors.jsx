@@ -70,7 +70,7 @@ const Tutors = () => {
                     <div className="flex justify-between text-sm">
                       <span className="text-gray-600">Bio: </span>
                       <span className="text-gray-900 font-medium">
-                        {tutor.bio}
+                        {tutor.bio.split(".")[0]}
                       </span>
                     </div>
                   </div>
