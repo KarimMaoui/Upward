@@ -75,6 +75,8 @@ const Home = () => {
               PROCESS
             </Link>
           </div>
+
+          {/* 
           <div className="mt-12">
             <div className="bg-gray-200 rounded-lg h-64 md:h-96 flex items-center justify-center">
               <span className="text-gray-500 text-lg">
@@ -82,6 +84,7 @@ const Home = () => {
               </span>
             </div>
           </div>
+          */}
         </div>
       </section>
 
