@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { tutors } from "../data/tutors";
-import iraSarkarImg from "../assets/Ira-Sarkar.png";
-
 
 const Tutors = () => {
   return (
@@ -53,11 +51,10 @@ const Tutors = () => {
                 </div> */}
                 <div className="relative w-full aspect-[4/3] bg-gray-100">
                   <img
-  src={tutor.name === "Ira Sarkar" ? iraSarkarImg : tutor.image}
-  alt={tutor.name}
-  className="absolute inset-0 w-full h-full object-cover"
-/>
-
+                    src={tutor.image}
+                    alt={tutor.name}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* <div className="p-6"> */}
