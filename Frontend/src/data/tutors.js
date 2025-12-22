@@ -27,7 +27,7 @@ export const tutors = [
     specialty: "Multilingual Business Writing",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Madeleine1.png",
+    image: "/Upward/Madeleine1.png",
     bio: " Madeleine is from the suburbs of Chicago and a student at Cornell University majoring in English and minoring in French on the pre-law track. At Cornell, she has experience working closely with students from multilingual backgrounds, helping them refine all kinds of writing projects including essays, research papers, applications, and more. Madeleine also has experience teaching English, helping students develop both conversational fluency and writing proficiency. Most recently, she completed a semester abroad in Paris, studying at Université Paris 1 - Panthéon Sorbonne and Université Paris Cité. There, she took classes conducted entirely in French, returning to Chicago fluent in the language and with a deep appreciation for French culture and lifestyle. Outside of the academic world, Madeleine is an avid reader and enjoys writing her own novels. She is excited to bring her experiences and passion for ESL education to support the mission of Upward.",
   },
   {
@@ -47,7 +47,7 @@ export const tutors = [
     specialty: "International studies, Literature, Economics",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Lauren.jpg",
+    image: "/Upward/Lauren.jpg",
     bio: " Born in Midland, Texas, Lauren attended Baylor University for her undergrad, where she majored in international studies with minors in literature and economics. Lauren’s honors thesis focused on the experience of immigrants establishing community in the US during the 19th and early 20th century. She found she particularly resonated with the stories of Chinese immigrants, so she applied to a Fulbright English Teaching Assistantship to Taiwan. After completing her Fulbright grant, she continued her education at Stanford University where she studied East Asian Studies with a focus on Taiwanese literature and history. After taking a gap year to study more advanced Mandarin and Taiwanese on a Taiwanese government scholarship, Lauren returned to Stanford and completed her master's thesis on Japanese Colonial Literature in Taiwan. As a language learner herself, Lauren’s teaching philosophy centers on instilling her students with confidence to express themselves through gentle guidance and an upbeat attitude.",
   },
 
@@ -58,7 +58,7 @@ export const tutors = [
     specialty: "Conflict resolution, Human rights",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Sonja.png",
+    image: "/Upward/Sonja.png",
     bio: " Sonja holds an LLM from Yenching Academy of Peking University and a BA in Political Science and Human Rights from Columbia University. She has lived and studied on four continents including Chiayi City as a Fulbright Scholar and New Taipei City, Taiwan as a National Security Language Initiative Scholar. Sonja has lived in Barcelona, Beijing, Cairo, Paris, and New York City. She has focused on conflict resolution work surrounding the Taiwan Strait, U.S.-China relations, and the Korean Peninsula. Sonja plans to build a career in conflict resolution and human rights.",
   },
 
@@ -69,7 +69,7 @@ export const tutors = [
     specialty: "Ethics and regulation of AI",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Cristina.png",
+    image: "/Upward/Cristina.png",
     bio: " Cristina graduated from Stanford with a JD and a PhD in philosophy, where she studied ethics and regulation of artificial intelligence. During graduate school, she organized international movie nights for students in her dorm, did French/Spanish/Portuguese exchanges, and led lots of outdoor activities like hiking and rock climbing! She likes chatting with language learners and finding new foodie recommendations in her favorite city, San Francisco.",
   },
 ];
