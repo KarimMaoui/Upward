@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
-// ✅ imports depuis src/assets
 import businessIcon from "../assets/business.png";
 import travelBagIcon from "../assets/travel-bag.png";
+import iraSarkarImg from "../assets/Ira-Sarkar.png";
+import nikeTariffsImg from "../assets/nike-tariffs.png";
 
 const Home = () => {
   const whyUpwardFeatures = [
