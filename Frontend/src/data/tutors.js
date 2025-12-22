@@ -6,7 +6,7 @@ export const tutors = [
     specialty: "Comparative Literature",
     experience: "5+ years",
     rating: 5.0,
-    image: "/sophia.jpeg",
+    image: "/Upward/sophia.jpeg",
     bio: " Sophia is excited to bring to her many years of experience in online-tutoring and teaching English to her clients at Upward. Having studied Comparative Literature at the University of California, Berkeley, she is versed in advanced English and loves being able to share her knowledge and passion for the language with others. She believes good communication is key to establishing trust and rapport and that language is therefore essential for optimal professional relations. She particularly enjoys tailoring her lessons to help her students reach their unique goals and works hard to keep her lessons engaging and relevant to each student’s needs. Further, she is currently working towards Spanish-fluency in the medical field, and so has familiarity with the struggles of advanced language acquisition in a professional setting. This allows her to bring a level of sympathy and understanding of her students’ experience to her lessons.",
   },
 
@@ -17,7 +17,7 @@ export const tutors = [
     specialty: "Business English, Strategy & Public Policy Communication",
     experience: "5+ years",
     rating: 5.0,
-    image: "/savion-garcia.jpg",
+    image: "/Upward/savion-garcia.jpg",
     bio: " Savion Garcia is an English language consultant with a strong academic background in Social Research and Public Policy from New York University Abu Dhabi. He also completed the International Baccalaureate program at the International School Manila. At Upward, Savion specializes in helping professionals enhance their English communication skills for real-world business contexts, including meetings, presentations, negotiations, and cross-cultural collaboration. Drawing on his analytical mindset and global experience, he takes a practical, goal-oriented approach to instruction, supporting clients in building fluency, confidence, and the soft skills needed to thrive in today’s professional environments.",
   },
   {
@@ -37,7 +37,7 @@ export const tutors = [
     specialty: "Molecular and Cellular Biology",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Ira-Sarkar.png",
+    image: "/Upward/Ira-Sarkar.png",
     bio: " Ira Sarkar is a student at the University of California, Berkeley, majoring in Molecular and Cellular Biology and following a pre-medical track. She is actively seeking professional experiences in healthcare settings, eager to apply her analytical and problem-solving skills to support clients and foster an environment of mutual growth. Her prior experience working with children as an English tutor has equipped her with strong patience and a deep appreciation for tailoring approaches to meet individual needs. Ira thrives in collaborative environments and values the diverse perspectives that come from working with people from varied backgrounds. She is committed to making a positive impact both as a teammate and in client-focused roles, always striving to facilitate meaningful learning experiences for everyone involved.",
   },
   {
