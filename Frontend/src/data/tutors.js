@@ -37,7 +37,7 @@ export const tutors = [
     specialty: "Molecular and Cellular Biology",
     experience: "5+ years",
     rating: 5.0,
-    image: "/Upward/Ira-Sarkar.png",
+    image: "Ira-Sarkar.png",
     bio: " Ira Sarkar is a student at the University of California, Berkeley, majoring in Molecular and Cellular Biology and following a pre-medical track. She is actively seeking professional experiences in healthcare settings, eager to apply her analytical and problem-solving skills to support clients and foster an environment of mutual growth. Her prior experience working with children as an English tutor has equipped her with strong patience and a deep appreciation for tailoring approaches to meet individual needs. Ira thrives in collaborative environments and values the diverse perspectives that come from working with people from varied backgrounds. She is committed to making a positive impact both as a teammate and in client-focused roles, always striving to facilitate meaningful learning experiences for everyone involved.",
   },
   {
