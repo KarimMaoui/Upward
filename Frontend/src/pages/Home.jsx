@@ -1,21 +1,12 @@
 import { Link } from "react-router-dom";
 
-import businessIcon from "../assets/business.png";
-import travelBagIcon from "../assets/travel-bag.png";
-import iraSarkarImg from "../assets/Ira-Sarkar.png";
-import nikeTariffsImg from "../assets/nike-tariffs.png";
-
 const Home = () => {
   const whyUpwardFeatures = [
     {
       title: "Elite Coaches",
       description: "Learn from Ivy League & top schools",
       icon: (
-        <img
-          src={businessIcon}
-          alt="Elite Coaches"
-          className="w-16 h-16 inline-block"
-        />
+        <img src="/dart.png" alt="dart" className="w-16 h-16 inline-block" />
       ),
     },
     {
@@ -23,8 +14,8 @@ const Home = () => {
       description: "Short, impactful session tailored to work schedules",
       icon: (
         <img
-          src={travelBagIcon}
-          alt="Flexible Format"
+          src="/adaptability.png"
+          alt="adaptability"
           className="w-16 h-16 inline-block"
         />
       ),
@@ -34,8 +25,8 @@ const Home = () => {
       description: "Learn language and global business communication",
       icon: (
         <img
-          src={businessIcon}
-          alt="Strategic Edge"
+          src="/business.png"
+          alt="business"
           className="w-16 h-16 inline-block"
         />
       ),
@@ -84,8 +75,6 @@ const Home = () => {
               PROCESS
             </Link>
           </div>
-
-          {/*
           <div className="mt-12">
             <div className="bg-gray-200 rounded-lg h-64 md:h-96 flex items-center justify-center">
               <span className="text-gray-500 text-lg">
@@ -93,7 +82,6 @@ const Home = () => {
               </span>
             </div>
           </div>
-          */}
         </div>
       </section>
 
