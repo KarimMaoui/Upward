@@ -275,7 +275,17 @@ const ServicesB2B = () => {
                 </h4>
               </div>
               <div className="h-[800px]">
-                <InlineWidget url={calendlyUrl} />
+  {typeof calendlyUrl === "string" && calendlyUrl.startsWith("http") ? (
+    <InlineWidget url={calendlyUrl} />
+  ) : (
+    <div className="flex items-center justify-center h-full">
+      <p className="text-gray-500 text-center">
+        Calendar temporarily unavailable.<br />
+        Please contact us directly.
+      </p>
+    </div>
+  )}
+</div>
               </div>
             </div>
           </div>
