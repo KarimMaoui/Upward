@@ -105,6 +105,7 @@ const Home = () => {
             Hear what others say
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Colonne de gauche : Les témoignages */}
             <div>
               <div className="space-y-6">
                 {testimonials.map((testimonial, index) => (
@@ -121,16 +122,16 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <div className="mt-6">
-                <Link to="/testimonials" className="btn-secondary">
-                  Other stories
-                </Link>
-              </div>
+              {/* Le bouton "Other stories" a été supprimé ici */}
             </div>
-            <div className="bg-gray-200 rounded-lg h-80 flex items-center justify-center">
-              <span className="text-gray-500 text-lg">
-                Testimonial Quote/Image
-              </span>
+
+            {/* Colonne de droite : L'image Visu.jpeg */}
+            <div className="bg-gray-200 rounded-lg h-80 overflow-hidden">
+              <img 
+                src="/Visu.jpeg" 
+                alt="Testimonial Visual" 
+                className="w-full h-full object-cover" 
+              />
             </div>
           </div>
         </div>
