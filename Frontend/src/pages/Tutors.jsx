@@ -24,7 +24,7 @@ const Tutors = () => {
       <section className="section-padding bg-white">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            Our Consultants
+            Our Team
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {tutors.map((tutor) => (
