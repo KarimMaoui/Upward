@@ -1,10 +1,15 @@
+import { useEffect } from "react"; // <--- 1. Ajoute cet import
 import { Link } from "react-router-dom";
 import { tutors } from "../data/tutors";
 
 const Tutors = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-br from-gray-50 to-white section-padding">
         <div className="container-max text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
