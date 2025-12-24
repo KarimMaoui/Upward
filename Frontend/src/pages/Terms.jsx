@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Terms = () => {
-  // 1. Force le haut de page quand on arrive sur Terms
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
