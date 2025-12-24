@@ -20,11 +20,13 @@ const ServicesB2B = () => {
       title: "Executive Communication",
       description:
         "Help senior leaders improve their presentation skills and executive presence.",
+      image: "/Executive.jpg", // Image Use Case 1
     },
     {
       title: "Sales Team Training",
       description:
         "Enhance sales team communication and negotiation skills for better results.",
+      image: "/Sales.jpg", // Image Use Case 2
     },
   ];
 
@@ -94,11 +96,13 @@ const ServicesB2B = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {useCases.map((useCase, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <div className="bg-gray-200 rounded-lg h-48 mb-6 flex items-center justify-center">
-                  <span className="text-gray-500">
-                    Use Case {index + 1}
-                  </span>
-                </div>
+                <div className="bg-gray-200 rounded-lg h-48 mb-6 overflow-hidden">
+                <img 
+                  src={useCase.image} 
+                  alt={useCase.title} 
+                  className="w-full h-full object-cover" 
+                />
+              </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {useCase.title}
                 </h3>
