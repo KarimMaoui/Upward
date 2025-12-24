@@ -111,7 +111,7 @@ const ServicesB2C = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {sessionFormats.map((format, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <div className="bg-gray-200 rounded-lg h-48 mb-6 overflow-hidden">
+                <div className="bg-gray-200 rounded-lg h-64 mb-6 overflow-hidden">
                   <img 
                     src={format.image} 
                     alt={format.title} 
