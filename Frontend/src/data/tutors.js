@@ -1,13 +1,13 @@
 export const tutors = [
   {
-    id: 0,
-    name: "Sophia",
+id: 0,
+    name: "Sonja",
     role: "English Language Consultant",
-    specialty: "Comparative Literature",
+    specialty: "Conflict resolution, Human rights",
     experience: "5+ years",
     rating: 5.0,
-    image: "/sophia.jpeg",
-    bio: " Sophia is excited to bring to her many years of experience in online-tutoring and teaching English to her clients at Upward. Having studied Comparative Literature at the University of California, Berkeley, she is versed in advanced English and loves being able to share her knowledge and passion for the language with others. She believes good communication is key to establishing trust and rapport and that language is therefore essential for optimal professional relations. She particularly enjoys tailoring her lessons to help her students reach their unique goals and works hard to keep her lessons engaging and relevant to each student’s needs. Further, she is currently working towards Spanish-fluency in the medical field, and so has familiarity with the struggles of advanced language acquisition in a professional setting. This allows her to bring a level of sympathy and understanding of her students’ experience to her lessons.",
+    image: "/Sonja.png",
+    bio: " Sonja holds an LLM from Yenching Academy of Peking University and a BA in Political Science and Human Rights from Columbia University. She has lived and studied on four continents including Chiayi City as a Fulbright Scholar and New Taipei City, Taiwan as a National Security Language Initiative Scholar. Sonja has lived in Barcelona, Beijing, Cairo, Paris, and New York City. She has focused on conflict resolution work surrounding the Taiwan Strait, U.S.-China relations, and the Korean Peninsula. Sonja plans to build a career in conflict resolution and human rights.",
   },
 
   {
@@ -51,19 +51,9 @@ export const tutors = [
     bio: " Born in Midland, Texas, Lauren attended Baylor University for her undergrad, where she majored in international studies with minors in literature and economics. Lauren’s honors thesis focused on the experience of immigrants establishing community in the US during the 19th and early 20th century. She found she particularly resonated with the stories of Chinese immigrants, so she applied to a Fulbright English Teaching Assistantship to Taiwan. After completing her Fulbright grant, she continued her education at Stanford University where she studied East Asian Studies with a focus on Taiwanese literature and history. After taking a gap year to study more advanced Mandarin and Taiwanese on a Taiwanese government scholarship, Lauren returned to Stanford and completed her master's thesis on Japanese Colonial Literature in Taiwan. As a language learner herself, Lauren’s teaching philosophy centers on instilling her students with confidence to express themselves through gentle guidance and an upbeat attitude.",
   },
 
-  {
-    id: 5,
-    name: "Sonja",
-    role: "English Language Consultant",
-    specialty: "Conflict resolution, Human rights",
-    experience: "5+ years",
-    rating: 5.0,
-    image: "/Sonja.png",
-    bio: " Sonja holds an LLM from Yenching Academy of Peking University and a BA in Political Science and Human Rights from Columbia University. She has lived and studied on four continents including Chiayi City as a Fulbright Scholar and New Taipei City, Taiwan as a National Security Language Initiative Scholar. Sonja has lived in Barcelona, Beijing, Cairo, Paris, and New York City. She has focused on conflict resolution work surrounding the Taiwan Strait, U.S.-China relations, and the Korean Peninsula. Sonja plans to build a career in conflict resolution and human rights.",
-  },
 
   {
-    id: 6,
+    id: 5,
     name: "Cristina",
     role: "English Language Consultant",
     specialty: "Ethics and regulation of AI",
@@ -72,4 +62,14 @@ export const tutors = [
     image: "/Cristina.png",
     bio: " Cristina graduated from Stanford with a JD and a PhD in philosophy, where she studied ethics and regulation of artificial intelligence. During graduate school, she organized international movie nights for students in her dorm, did French/Spanish/Portuguese exchanges, and led lots of outdoor activities like hiking and rock climbing! She likes chatting with language learners and finding new foodie recommendations in her favorite city, San Francisco.",
   },
+  
+  {
+  id: 6,
+    name: "Sophia",
+    role: "English Language Consultant",
+    specialty: "Comparative Literature",
+    experience: "5+ years",
+    rating: 5.0,
+    image: "/sophia.jpeg",
+    bio: " Sophia is excited to bring to her many years of experience in online-tutoring and teaching English to her clients at Upward. Having studied Comparative Literature at the University of California, Berkeley, she is versed in advanced English and loves being able to share her knowledge and passion for the language with others. She believes good communication is key to establishing trust and rapport and that language is therefore essential for optimal professional relations. She particularly enjoys tailoring her lessons to help her students reach their unique goals and works hard to keep her lessons engaging and relevant to each student’s needs. Further, she is currently working towards Spanish-fluency in the medical field, and so has familiarity with the struggles of advanced language acquisition in a professional setting. This allows her to bring a level of sympathy and understanding of her students’ experience to her lessons.",
 ];
