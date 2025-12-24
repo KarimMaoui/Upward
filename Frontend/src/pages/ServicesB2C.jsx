@@ -30,19 +30,19 @@ const ServicesB2C = () => {
       name: "Coach 1",
       role: "Communication Expert",
       specialty: "Public Speaking & Presentation Skills",
-      image: "/api/placeholder/200/200",
+      image: "/Sonja.png", // Image pour Consultant 1
     },
     {
       name: "Coach 2",
       role: "Leadership Coach",
       specialty: "Executive Communication & Team Leadership",
-      image: "/api/placeholder/200/200",
+      image: "/Lauren.jpg", // Image pour Consultant 2
     },
     {
       name: "Coach 3",
       role: "Career Coach",
       specialty: "Interview Preparation ",
-      image: "/api/placeholder/200/200",
+      image: "/savion-garcia.jpg", // Image pour Consultant 3
     },
   ];
 
