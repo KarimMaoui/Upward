@@ -172,7 +172,11 @@ const Home = () => {
         <div className="container-max text-center">
           <h2 className="text-4xl font-bold mb-8">Ready to learn?</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/book-session" className="btn-primary">
+            <Link 
+              to="/book-session" 
+              className="btn-primary"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Book a Call
             </Link>
             
