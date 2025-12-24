@@ -47,12 +47,12 @@ const Home = () => {
     {
       title: "B2B",
       description: "Description of B2B services we have.",
-      image: "/api/placeholder/400/300",
+      image: "/B2B.jpeg", // Image Journey 1
     },
     {
       title: "B2C",
       description: "Description of B2C services we have.",
-      image: "/api/placeholder/400/300",
+      image: "/B2C.jpeg", // Image Journey 2
     },
   ];
 
@@ -144,6 +144,7 @@ const Home = () => {
       </section>
 
       {/* Choose Your Journey Section */}
+      {/* Choose Your Journey Section */}
       <section className="section-padding bg-white">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
@@ -152,10 +153,12 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {journeyOptions.map((option, index) => (
               <div key={index} className="text-center">
-                <div className="bg-gray-200 rounded-lg h-64 mb-6 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">
-                    Journey Image {index + 1}
-                  </span>
+                <div className="bg-gray-200 rounded-lg h-64 mb-6 overflow-hidden">
+                  <img 
+                    src={option.image} 
+                    alt={option.title} 
+                    className="w-full h-full object-cover" 
+                  />
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {option.title}
