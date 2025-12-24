@@ -15,13 +15,21 @@ const Footer = () => {
     legal: [{ name: "CSV page", href: "/terms" }],
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-max section-padding">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1">
-            <Link to="/" className="text-2xl font-bold text-white">
+            <Link 
+              to="/" 
+              className="text-2xl font-bold text-white"
+              onClick={scrollToTop} // Ajout du scroll ici
+            >
               Upward
             </Link>
             <p className="mt-4 text-gray-300">Speak Better. Reach Higher.</p>
@@ -36,6 +44,7 @@ const Footer = () => {
                   <Link
                     to={link.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
+                    onClick={scrollToTop} // Ajout du scroll ici
                   >
                     {link.name}
                   </Link>
@@ -53,6 +62,7 @@ const Footer = () => {
                   <Link
                     to={link.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
+                    onClick={scrollToTop} // Ajout du scroll ici
                   >
                     {link.name}
                   </Link>
@@ -70,6 +80,7 @@ const Footer = () => {
                   <Link
                     to={link.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200"
+                    onClick={scrollToTop} // Ajout du scroll ici
                   >
                     {link.name}
                   </Link>
