@@ -151,10 +151,12 @@ const ServicesB2C = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {coaches.map((coach, index) => (
               <div key={index} className="text-center">
-                <div className="bg-gray-200 rounded-lg h-48 mb-6 flex items-center justify-center mx-auto w-48">
-                  <span className="text-gray-500 text-lg">
-                    Consultant {index + 1}
-                  </span>
+                <div className="bg-gray-200 rounded-lg h-48 mb-6 overflow-hidden mx-auto w-48">
+                  <img 
+                    src={coach.image} 
+                    alt={coach.name} 
+                    className="w-full h-full object-cover" 
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {coach.name}
