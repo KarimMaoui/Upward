@@ -102,17 +102,6 @@ const Tutors = () => {
               </div>
             ))}
           </div>
-
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-6 max-w-3xl mx-auto">
-              Each of our consultants brings unique expertise and experience to
-              help you achieve your communication goals. Browse their profiles
-              to find the perfect match for your needs.
-            </p>
-            <Link to="/book-session" className="btn-primary">
-              Book a Consultation
-            </Link>
-          </div>
         </div>
       </section>
 
