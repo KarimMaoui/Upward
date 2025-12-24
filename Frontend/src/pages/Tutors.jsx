@@ -17,13 +17,6 @@ const Tutors = () => {
           <Link to="/book-session" className="btn-primary">
             Book a Session
           </Link>
-          <div className="mt-12">
-            <div className="bg-gray-200 rounded-lg h-64 md:h-96 flex items-center justify-center">
-              <span className="text-gray-500 text-lg">
-                Consultants Hero Visual
-              </span>
-            </div>
-          </div>
         </div>
       </section>
 
