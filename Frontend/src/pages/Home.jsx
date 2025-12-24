@@ -174,9 +174,16 @@ const Home = () => {
             <Link to="/book-session" className="btn-primary">
               Book a Call
             </Link>
-            <Link to="/how-it-works" className="btn-secondary">
+            
+            {/* Modification ici : ajout du lien vers how-it-works et du scroll vers le haut */}
+            <Link 
+              to="/how-it-works" 
+              className="btn-secondary"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Learn More
             </Link>
+
           </div>
         </div>
       </section>
