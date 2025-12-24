@@ -15,13 +15,13 @@ const ServicesB2C = () => {
       title: "Public Speaking",
       description:
         "Master the art of delivering compelling presentations and speeches.",
-      image: "/api/placeholder/300/200",
+      image: "/PublicSpeaking.jpg", // Image Format 1
     },
     {
       title: "Leadership Communication",
       description:
         "Develop executive presence and leadership communication skills.",
-      image: "/api/placeholder/300/200",
+      image: "/Leadership.jpg", // Image Format 2
     },
   ];
 
@@ -91,10 +91,12 @@ const ServicesB2C = () => {
                 </Link>
               </div>
             </div>
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500 text-lg">
-                Session Overview Visual
-              </span>
+            <div className="bg-gray-200 rounded-lg h-96 overflow-hidden">
+              <img 
+                src="/Cours.jpg" 
+                alt="Session Overview" 
+                className="w-full h-full object-cover" 
+              />
             </div>
           </div>
         </div>
@@ -109,10 +111,12 @@ const ServicesB2C = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {sessionFormats.map((format, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                <div className="bg-gray-200 rounded-lg h-48 mb-6 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">
-                    Format {index + 1}
-                  </span>
+                <div className="bg-gray-200 rounded-lg h-48 mb-6 overflow-hidden">
+                  <img 
+                    src={format.image} 
+                    alt={format.title} 
+                    className="w-full h-full object-cover" 
+                  />
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {format.title}
