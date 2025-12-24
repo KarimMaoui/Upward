@@ -1,6 +1,12 @@
+import { useEffect } from "react"; // 1. On importe useEffect
 import { Link } from "react-router-dom";
 
 const Terms = () => {
+  // 2. On force le haut de page quand on arrive sur Terms
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       {/* Hero Section */}
@@ -66,7 +72,12 @@ const Terms = () => {
       {/* Back to Home */}
       <section className="section-padding bg-gray-50">
         <div className="container-max text-center">
-          <Link to="/" className="btn-primary">
+          {/* 3. On ajoute onClick pour forcer le scroll en haut lors du retour Home */}
+          <Link 
+            to="/" 
+            className="btn-primary"
+            onClick={() => window.scrollTo(0, 0)}
+          >
             Back to Home
           </Link>
         </div>
