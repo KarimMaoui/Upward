@@ -1,8 +1,11 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useSearchParams } from "react-router-dom"; // Ajout de useSearchParams
 import emailjs from "@emailjs/browser";
+import { tutors } from "../data/tutors"; // Import des vrais tuteurs
 
 const BookSession = () => {
+  const [searchParams] = useSearchParams(); // Pour lire l'URL
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,11 +15,25 @@ const BookSession = () => {
     date: "",
     time: "",
     message: "",
-    honey: "", // spam honeypot (should stay empty)
+    honey: "", // spam honeypot
   });
 
   const [sending, setSending] = useState(false);
   const [resultMsg, setResultMsg] = useState("");
+
+  // Au chargement, on regarde si l'URL contient ?tutor=ID
+  // Si oui, on pré-sélectionne le coach correspondant
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll en haut de page
+    
+    const tutorId = searchParams.get("tutor");
+    if (tutorId) {
+      const selectedTutor = tutors.find(t => t.id === parseInt(tutorId));
+      if (selectedTutor) {
+        setFormData(prev => ({ ...prev, coach: selectedTutor.name }));
+      }
+    }
+  }, [searchParams]);
 
   const services = [
     "Individual Coaching Session",
@@ -27,15 +44,7 @@ const BookSession = () => {
     "Custom Package",
   ];
 
-  const coaches = [
-    "Any Tutor (We will match you)",
-    "Tutor 1 - Communication Expert",
-    "Tutor 2 - Leadership Coach",
-    "Tutor 3 - Career Coach",
-    "Tutor 4 - Sales Communication",
-    "Tutor 5 - Media & PR Coach",
-    "Tutor 6 - Technical Communication",
-  ];
+  // On n'a plus besoin de la liste hardcodée 'coaches', on utilise 'tutors' importé
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -46,12 +55,11 @@ const BookSession = () => {
     e.preventDefault();
     setResultMsg("");
 
-    // honeypot: if filled, silently ignore
+    // honeypot
     if (formData.honey) return;
 
     setSending(true);
     try {
-      // these keys must exist in your EmailJS template
       const params = {
         name: formData.name,
         email: formData.email,
@@ -74,7 +82,6 @@ const BookSession = () => {
         "✅ Thanks! Your booking request was sent. We’ll contact you within 24 hours."
       );
 
-      // reset form
       setFormData({
         name: "",
         email: "",
@@ -256,7 +263,7 @@ const BookSession = () => {
                 </select>
               </div>
 
-              {/* Coach */}
+              {/* Coach Selection - UPDATED */}
               <div>
                 <label
                   htmlFor="coach"
@@ -272,9 +279,12 @@ const BookSession = () => {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
                 >
                   <option value="">Select a coach (optional)</option>
-                  {coaches.map((coach, index) => (
-                    <option key={index} value={coach}>
-                      {coach}
+                  <option value="Any Tutor">Any Tutor (We will match you)</option>
+                  
+                  {/* Génération dynamique de la liste des tuteurs */}
+                  {tutors.map((tutor) => (
+                    <option key={tutor.id} value={tutor.name}>
+                      {tutor.name}
                     </option>
                   ))}
                 </select>
