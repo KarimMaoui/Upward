@@ -7,18 +7,21 @@ const HowItWorks = () => {
       title: "Assessment & Goal Setting",
       description:
         "Complete a comprehensive assessment to identify your communication strengths and areas for improvement. Together, we will set clear, achievable goals for your development.",
+      image: "/Goal.jpg", // Correction : .jpg
     },
     {
       step: 2,
       title: "Coach Matching",
       description:
         "Based on your assessment results and goals, we will match you with the perfect coach who specializes in your specific needs and learning style.",
+      image: "/Matching.jpg", // Correction : .jpg
     },
     {
       step: 3,
       title: "Begin Your Journey",
       description:
         "Start your personalized coaching sessions with regular check-ins, progress tracking, and continuous support to ensure you achieve your communication goals.",
+      image: "/Journey.jpg", // Correction : .jpg
     },
   ];
 
@@ -53,24 +56,28 @@ const HowItWorks = () => {
                 key={index}
                 className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
               >
+                {/* Colonne Image */}
                 <div
                   className={`order-2 ${
                     index % 2 === 1 ? "lg:order-1" : "lg:order-2"
                   }`}
                 >
-                  <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                    <span className="text-gray-500 text-lg">
-                      Step {step.step} Visual
-                    </span>
+                  <div className="rounded-lg h-64 overflow-hidden flex items-center justify-center">
+                    <img 
+                      src={step.image} 
+                      alt={step.title} 
+                      className="w-full h-full object-contain" 
+                    />
                   </div>
                 </div>
+                
+                {/* Colonne Texte */}
                 <div
                   className={`order-1 ${
                     index % 2 === 1 ? "lg:order-2" : "lg:order-1"
                   }`}
                 >
                   <div className="flex items-center mb-6">
-                    <div className="text-4xl mr-4">{step.icon}</div>
                     <div>
                       <span className="text-sm font-medium text-gray-500">
                         STEP {step.step}
@@ -187,10 +194,14 @@ const HowItWorks = () => {
                 </Link>
               </div>
             </div>
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500 text-lg">
-                Matching Process Visual
-              </span>
+            
+            {/* Colonne Image Process.jpg */}
+            <div className="rounded-lg h-96 overflow-hidden flex items-center justify-center">
+               <img 
+                 src="/Process.jpg" 
+                 alt="Matching Process Visual" 
+                 className="w-full h-full object-contain" 
+               />
             </div>
           </div>
         </div>
