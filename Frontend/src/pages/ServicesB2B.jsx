@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { useState, useRef } from "react"; // 1. On importe useRef
 import { Link } from "react-router-dom";
 import { InlineWidget } from "react-calendly";
 
 const ServicesB2B = () => {
   const calendlyUrl = import.meta.env.VITE_CALENDLY_URL;
   const [selectedDate, setSelectedDate] = useState(null);
+  
+  // 2. Création de la référence pour la section Calendly
+  const calendlyRef = useRef(null);
+
+  // 3. Fonction pour scroller vers le bas
+  const scrollToCalendly = () => {
+    calendlyRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const courseFormats = [
     "In-person workshops",
@@ -20,13 +28,13 @@ const ServicesB2B = () => {
       title: "Executive Communication",
       description:
         "Help senior leaders improve their presentation skills and executive presence.",
-      image: "/Executive.jpg", // Image Use Case 1
+      image: "/Executive.jpg",
     },
     {
       title: "Sales Team Training",
       description:
         "Enhance sales team communication and negotiation skills for better results.",
-      image: "/Sales.jpg", // Image Use Case 2
+      image: "/Sales.jpg",
     },
   ];
 
@@ -42,6 +50,11 @@ const ServicesB2B = () => {
             Transform your organization's communication culture with our
             comprehensive B2B training and coaching solutions.
           </p>
+          
+          {/* 4. Le bouton est déplacé ici et active le scroll */}
+          <button onClick={scrollToCalendly} className="btn-primary">
+            Get Custom Quote
+          </button>
         </div>
       </section>
 
@@ -73,13 +86,11 @@ const ServicesB2B = () => {
                   high-quality communication training regardless of location or
                   schedule constraints.
                 </p>
-                <Link to="/contact" className="btn-primary">
-                  Get Custom Quote
-                </Link>
+                {/* J'ai retiré l'ancien bouton Link ici */}
               </div>
             </div>
 
-            {/* MODIFICATION ICI : Remplacement du bloc gris par l'image Format.jpg */}
+            {/* Image Format.jpg */}
             <div className="rounded-lg h-96 flex items-center justify-center overflow-hidden">
               <img 
                 src="/Format.jpg" 
@@ -127,7 +138,8 @@ const ServicesB2B = () => {
       </section>
 
       {/* Calendly Section */}
-      <section className="section-padding bg-white">
+      {/* 5. On attache la référence (ref) ici pour que le scroll s'arrête là */}
+      <section ref={calendlyRef} className="section-padding bg-white">
         <div className="container-max">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
             Book a call with us today
