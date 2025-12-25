@@ -79,8 +79,13 @@ const ServicesB2B = () => {
               </div>
             </div>
 
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <span className="text-gray-500">Course Formats Visual</span>
+            {/* MODIFICATION ICI : Remplacement du bloc gris par l'image Format.jpg */}
+            <div className="rounded-lg h-96 flex items-center justify-center overflow-hidden">
+              <img 
+                src="/Format.jpg" 
+                alt="Course formats visual description" 
+                className="w-full h-full object-contain" 
+              />
             </div>
           </div>
         </div>
@@ -195,4 +200,3 @@ const ServicesB2B = () => {
 };
 
 export default ServicesB2B;
-
