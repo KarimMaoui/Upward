@@ -34,14 +34,25 @@ const Home = () => {
   ];
 
   const testimonials = [
-    { name: "Directeur de l'Expérience Étudiante", role: "EM Strasbourg", company: "Proposer Upward à nos étudiants a été un vrai tournant. La plateforme leur donne accès à un réseau de mentors exceptionnel, ce qui renforce concrètement notre politique de réussite et d'égalité des chances. Nos élèves se sentent beaucoup mieux accompagnés pour construire leur réseau." },
-    {
-      name: "Responsable Carrières",
-      role: "Grenoble Ecole de Management",
-      company: "Global Solutions",
-    },
-    { name: "Directeur Pédagogique", role: "Ipesup", company: "Innovation Labs" },
-  ];
+  { 
+    name: "Prénom Nom", // À remplacer par le nom de la personne
+    role: "Directeur de l'Expérience Étudiante", 
+    company: "EM Strasbourg Business School", 
+    text: "L'intervention d'Upward a transformé notre dispositif de préparation. En connectant nos étudiants avec des mentors expérimentés pour des entraînements ciblés, la plateforme nous fait gagner un temps précieux en logistique tout en garantissant un accompagnement ultra-qualitatif à nos élèves." 
+  },
+  {
+    name: "Prénom Nom", // À remplacer par le nom de la personne
+    role: "Responsable Carrières",
+    company: "Grenoble Ecole de Management",
+    text: "Grâce à Upward, nous avons pu structurer et intensifier l'entraînement de nos étudiants. Les retours directs des mentors suite aux simulations permettent à nos élèves de cibler exactement ce qu'ils doivent améliorer avant leurs vraies échéances."
+  },
+  { 
+    name: "Prénom Nom", // À remplacer par le nom de la personne
+    role: "Directeur Pédagogique", 
+    company: "Ipesup", 
+    text: "Upward a été la solution idéale pour organiser les entretiens blancs de nos élèves de deuxième année. Le fait de pouvoir simuler les oraux des concours avec des mentors exigeants leur offre une préparation concrète et un avantage décisif pour le jour J." 
+  }
+];
 
   const journeyOptions = [
     {
