@@ -34,13 +34,13 @@ const Home = () => {
   ];
 
   const testimonials = [
-    { name: "Client 1", role: "Marketing Director", company: "TechCorp" },
+    { name: "Directeur de l'Expérience Étudiante", role: "EM Strasbourg", company: "Proposer Upward à nos étudiants a été un vrai tournant. La plateforme leur donne accès à un réseau de mentors exceptionnel, ce qui renforce concrètement notre politique de réussite et d'égalité des chances. Nos élèves se sentent beaucoup mieux accompagnés pour construire leur réseau." },
     {
-      name: "Client 2",
-      role: "Sales Manager",
+      name: "Responsable Carrières",
+      role: "Grenoble Ecole de Management",
       company: "Global Solutions",
     },
-    { name: "Client 3", role: "Team Lead", company: "Innovation Labs" },
+    { name: "Directeur Pédagogique", role: "Ipesup", company: "Innovation Labs" },
   ];
 
   const journeyOptions = [
