@@ -37,17 +37,15 @@ const Home = () => {
   { 
     role: "Head of Student Experience", 
     company: "EM Strasbourg Business School", 
-    text: "Upward has completely transformed our preparation process. By connecting our students with experienced mentors for targeted training, the platform saves us valuable time on logistics while ensuring top-tier support for our cohorts." 
   },
   {
     role: "Head of Career Services",
     company: "Grenoble Ecole de Management",
-    text: "Thanks to Upward, we've been able to structure and scale our students' interview prep. The direct feedback from mentors after the mock sessions allows our students to pinpoint exactly what they need to improve before the real deadlines."
+  
   },
   { 
     role: "Director", 
     company: "Ipesup", 
-    text: "Upward was the ideal solution for organizing mock interviews for our second-year students. Simulating competitive oral exams with demanding mentors gives them highly practical preparation and a decisive edge for the big day." 
   }
 ];
 
